@@ -1,0 +1,245 @@
+[
+  {
+    "strategy": "A",
+    "kind": "self-vector backend check, not a benchmark question",
+    "input_chunk_id": "a1011f433fe8e78e97dd6c70",
+    "applied_filter": {},
+    "hits": [
+      {
+        "chunk_id": "a1011f433fe8e78e97dd6c70",
+        "document_id": "digital-control-system",
+        "source": "starter/data/Digital control system.pdf",
+        "page": 1,
+        "score": 1.0,
+        "metadata": {
+          "module": 1,
+          "lecture": 1,
+          "char_end": 480,
+          "chunking": "fixed:480:48",
+          "language": "en",
+          "char_start": 0,
+          "text_sha256": "54d7f1ae0a29c56e7e2899a30fbb856c88be94571e7084ac9d82d42c09148fd9",
+          "token_count": 97,
+          "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "metadata_origin": "Printed Digital Control Module N Lecture M header",
+          "token_limit_split": false,
+          "embedding_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+          "embedding_dimensions": 384,
+          "normalized_characters": 1761,
+          "document_physical_pages": 230
+        }
+      },
+      {
+        "chunk_id": "5a0ed43d3d56fbfba44b816b",
+        "document_id": "digital-control-system",
+        "source": "starter/data/Digital control system.pdf",
+        "page": 5,
+        "score": 0.8037192821502686,
+        "metadata": {
+          "module": 1,
+          "lecture": 2,
+          "char_end": 240,
+          "chunking": "fixed:480:48",
+          "language": "en",
+          "char_start": 0,
+          "text_sha256": "77d888d76cfadcdc0c3d80e2ec1425f1cc5f2ca62cf90a331b5b48878e028d85",
+          "token_count": 52,
+          "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "metadata_origin": "Printed Digital Control Module N Lecture M header",
+          "token_limit_split": true,
+          "embedding_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+          "embedding_dimensions": 384,
+          "normalized_characters": 889,
+          "document_physical_pages": 230
+        }
+      },
+      {
+        "chunk_id": "c2640604e357c6e925045a92",
+        "document_id": "digital-control-system",
+        "source": "starter/data/Digital control system.pdf",
+        "page": 21,
+        "score": 0.7945109605789185,
+        "metadata": {
+          "module": 2,
+          "lecture": 1,
+          "char_end": 480,
+          "chunking": "fixed:480:48",
+          "language": "en",
+          "char_start": 0,
+          "text_sha256": "f571d45c2145aee995719d8131e98d026c550a34501c5d8d8299e39fe2f66d3c",
+          "token_count": 96,
+          "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "metadata_origin": "Printed Digital Control Module N Lecture M header",
+          "token_limit_split": false,
+          "embedding_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+          "embedding_dimensions": 384,
+          "normalized_characters": 1387,
+          "document_physical_pages": 230
+        }
+      }
+    ]
+  },
+  {
+    "strategy": "B",
+    "kind": "self-vector backend check, not a benchmark question",
+    "input_chunk_id": "90da31337e94035df389d64d",
+    "applied_filter": {},
+    "hits": [
+      {
+        "chunk_id": "90da31337e94035df389d64d",
+        "document_id": "digital-control-system",
+        "source": "starter/data/Digital control system.pdf",
+        "page": 1,
+        "score": 1.0,
+        "metadata": {
+          "module": 1,
+          "lecture": 1,
+          "char_end": 469,
+          "chunking": "paragraph:480",
+          "language": "en",
+          "char_start": 0,
+          "text_sha256": "54d7f1ae0a29c56e7e2899a30fbb856c88be94571e7084ac9d82d42c09148fd9",
+          "token_count": 95,
+          "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "metadata_origin": "Printed Digital Control Module N Lecture M header",
+          "token_limit_split": false,
+          "embedding_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+          "embedding_dimensions": 384,
+          "normalized_characters": 1761,
+          "document_physical_pages": 230
+        }
+      },
+      {
+        "chunk_id": "62fb69be78ef6eb05dbcc94c",
+        "document_id": "digital-control-system",
+        "source": "starter/data/Digital control system.pdf",
+        "page": 21,
+        "score": 0.7988762259483337,
+        "metadata": {
+          "module": 2,
+          "lecture": 1,
+          "char_end": 460,
+          "chunking": "paragraph:480",
+          "language": "en",
+          "char_start": 0,
+          "text_sha256": "f571d45c2145aee995719d8131e98d026c550a34501c5d8d8299e39fe2f66d3c",
+          "token_count": 92,
+          "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "metadata_origin": "Printed Digital Control Module N Lecture M header",
+          "token_limit_split": false,
+          "embedding_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+          "embedding_dimensions": 384,
+          "normalized_characters": 1387,
+          "document_physical_pages": 230
+        }
+      },
+      {
+        "chunk_id": "8c2adcccf405175380881edb",
+        "document_id": "digital-control-system",
+        "source": "starter/data/Digital control system.pdf",
+        "page": 15,
+        "score": 0.7972046136856079,
+        "metadata": {
+          "module": 1,
+          "lecture": 4,
+          "char_end": 394,
+          "chunking": "paragraph:480",
+          "language": "en",
+          "char_start": 0,
+          "text_sha256": "115f1b4b5a09c67d85f686bf55912042b09fb78dc92d8fe404b9e286809b73e6",
+          "token_count": 88,
+          "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "metadata_origin": "Printed Digital Control Module N Lecture M header",
+          "token_limit_split": false,
+          "embedding_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+          "embedding_dimensions": 384,
+          "normalized_characters": 1935,
+          "document_physical_pages": 230
+        }
+      }
+    ]
+  },
+  {
+    "strategy": "C",
+    "kind": "self-vector backend check, not a benchmark question",
+    "input_chunk_id": "90da31337e94035df389d64d",
+    "applied_filter": {
+      "module": 1,
+      "lecture": 1
+    },
+    "hits": [
+      {
+        "chunk_id": "90da31337e94035df389d64d",
+        "document_id": "digital-control-system",
+        "source": "starter/data/Digital control system.pdf",
+        "page": 1,
+        "score": 1.0,
+        "metadata": {
+          "module": 1,
+          "lecture": 1,
+          "char_end": 469,
+          "chunking": "paragraph:480",
+          "language": "en",
+          "char_start": 0,
+          "text_sha256": "54d7f1ae0a29c56e7e2899a30fbb856c88be94571e7084ac9d82d42c09148fd9",
+          "token_count": 95,
+          "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "metadata_origin": "Printed Digital Control Module N Lecture M header",
+          "token_limit_split": false,
+          "embedding_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+          "embedding_dimensions": 384,
+          "normalized_characters": 1761,
+          "document_physical_pages": 230
+        }
+      },
+      {
+        "chunk_id": "9114c31b3e60abc0391f4e1b",
+        "document_id": "digital-control-system",
+        "source": "starter/data/Digital control system.pdf",
+        "page": 2,
+        "score": 0.7844956751017477,
+        "metadata": {
+          "module": 1,
+          "lecture": 1,
+          "char_end": 231,
+          "chunking": "paragraph:480",
+          "language": "en",
+          "char_start": 0,
+          "text_sha256": "107f52c7980e9d40995f23ea6f86bb54841e59883da64c0d1b97a41893f36033",
+          "token_count": 83,
+          "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "metadata_origin": "Printed Digital Control Module N Lecture M header",
+          "token_limit_split": true,
+          "embedding_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+          "embedding_dimensions": 384,
+          "normalized_characters": 1259,
+          "document_physical_pages": 230
+        }
+      },
+      {
+        "chunk_id": "53fb0ffb4ead17544616a378",
+        "document_id": "digital-control-system",
+        "source": "starter/data/Digital control system.pdf",
+        "page": 3,
+        "score": 0.7604268336041683,
+        "metadata": {
+          "module": 1,
+          "lecture": 1,
+          "char_end": 301,
+          "chunking": "paragraph:480",
+          "language": "en",
+          "char_start": 0,
+          "text_sha256": "8552fba7254908c45712bc7ccd3feecae31519d5da95ac4d103da9542c67c332",
+          "token_count": 75,
+          "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "metadata_origin": "Printed Digital Control Module N Lecture M header",
+          "token_limit_split": false,
+          "embedding_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+          "embedding_dimensions": 384,
+          "normalized_characters": 2362,
+          "document_physical_pages": 230
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,1945 @@
+{
+  "documents": [
+    {
+      "source_id": "digital-control-system",
+      "title": "Digital control system",
+      "title_origin": "Tên file PDF",
+      "source_path_or_url": "starter/data/Digital control system.pdf",
+      "original_source_url": "https://drive.google.com/file/d/1PUynNV8-UVpHyM8ec4wIlvuqkM6UA-cy/view?usp=sharing",
+      "license_or_permission": null,
+      "accessed_at": "2026-11-13T19:25:00+07:00",
+      "physical_page_count": 230,
+      "pages": [
+        {
+          "page": 1,
+          "normalized_characters": 1761,
+          "text_sha256": "54d7f1ae0a29c56e7e2899a30fbb856c88be94571e7084ac9d82d42c09148fd9",
+          "module": 1,
+          "lecture": 1,
+          "selected": true
+        },
+        {
+          "page": 2,
+          "normalized_characters": 1259,
+          "text_sha256": "107f52c7980e9d40995f23ea6f86bb54841e59883da64c0d1b97a41893f36033",
+          "module": 1,
+          "lecture": 1,
+          "selected": true
+        },
+        {
+          "page": 3,
+          "normalized_characters": 2362,
+          "text_sha256": "8552fba7254908c45712bc7ccd3feecae31519d5da95ac4d103da9542c67c332",
+          "module": 1,
+          "lecture": 1,
+          "selected": true
+        },
+        {
+          "page": 4,
+          "normalized_characters": 1485,
+          "text_sha256": "ca5fc2d0f2796b879cd6b90799526084891a479d72afb9086d3aa8c0ad742fdc",
+          "module": 1,
+          "lecture": 1,
+          "selected": true
+        },
+        {
+          "page": 5,
+          "normalized_characters": 889,
+          "text_sha256": "77d888d76cfadcdc0c3d80e2ec1425f1cc5f2ca62cf90a331b5b48878e028d85",
+          "module": 1,
+          "lecture": 2,
+          "selected": true
+        },
+        {
+          "page": 6,
+          "normalized_characters": 913,
+          "text_sha256": "dd9fdb984f968e9b243d5197a12db85e69684e99be5bb6bb4e95e852cae811f7",
+          "module": 1,
+          "lecture": 2,
+          "selected": true
+        },
+        {
+          "page": 7,
+          "normalized_characters": 1595,
+          "text_sha256": "7052c1c8443276f00ef964eb60f87e8807f4564a35387d5399561049889269ee",
+          "module": 1,
+          "lecture": 2,
+          "selected": true
+        },
+        {
+          "page": 8,
+          "normalized_characters": 1660,
+          "text_sha256": "bb8e11a508c19600a158191a4af22e1f4712c594e32fa240540b47862c5c40a1",
+          "module": 1,
+          "lecture": 2,
+          "selected": true
+        },
+        {
+          "page": 9,
+          "normalized_characters": 1559,
+          "text_sha256": "0afb238a656e3dbf6772693bd15c48a4385fd77fe005048db15ad7443d1d1946",
+          "module": 1,
+          "lecture": 3,
+          "selected": true
+        },
+        {
+          "page": 10,
+          "normalized_characters": 687,
+          "text_sha256": "edcbe5a9bb27280def4f19169cc8de14501533d9a5543d262629949199110375",
+          "module": 1,
+          "lecture": 3,
+          "selected": true
+        },
+        {
+          "page": 11,
+          "normalized_characters": 931,
+          "text_sha256": "f2255a0eacd8e3b80cd36ee9dba973ceceab2d4d605e6cb59ebe851042ade864",
+          "module": 1,
+          "lecture": 3,
+          "selected": true
+        },
+        {
+          "page": 12,
+          "normalized_characters": 1933,
+          "text_sha256": "c3dd1a9ce1893d3001760fb996a278242a877785d4bc8473f73797d517f2fcd3",
+          "module": 1,
+          "lecture": 3,
+          "selected": true
+        },
+        {
+          "page": 13,
+          "normalized_characters": 827,
+          "text_sha256": "3ceb8d829dde5ea66b049b76f54ca24f365eb859896c8ef96a0bef212829fb32",
+          "module": 1,
+          "lecture": 3,
+          "selected": true
+        },
+        {
+          "page": 14,
+          "normalized_characters": 563,
+          "text_sha256": "4852eb3672678c6f8c6bf2d9898b42f1b05552f8258064ebffe37f00695fa98b",
+          "module": 1,
+          "lecture": 3,
+          "selected": true
+        },
+        {
+          "page": 15,
+          "normalized_characters": 1935,
+          "text_sha256": "115f1b4b5a09c67d85f686bf55912042b09fb78dc92d8fe404b9e286809b73e6",
+          "module": 1,
+          "lecture": 4,
+          "selected": true
+        },
+        {
+          "page": 16,
+          "normalized_characters": 1408,
+          "text_sha256": "a2d8629b2f0e50e474ee728bd5f0fa6d99aac7a9253562520821b87f2e01dbaa",
+          "module": 1,
+          "lecture": 4,
+          "selected": true
+        },
+        {
+          "page": 17,
+          "normalized_characters": 1503,
+          "text_sha256": "fac64fcc06690c3e6da0a305b329efe76f60320bc02db5e7dfd5686ed9d0815a",
+          "module": 1,
+          "lecture": 4,
+          "selected": true
+        },
+        {
+          "page": 18,
+          "normalized_characters": 844,
+          "text_sha256": "162dab9e76bd804fcaf56a1ff390eefd37dea639d4b7f42202e53f280f299d89",
+          "module": 1,
+          "lecture": 4,
+          "selected": true
+        },
+        {
+          "page": 19,
+          "normalized_characters": 980,
+          "text_sha256": "3a0eb4b46ceedc09a42828f2f03578978bd2789f51b4046462c43075af4d92fa",
+          "module": 1,
+          "lecture": 4,
+          "selected": true
+        },
+        {
+          "page": 20,
+          "normalized_characters": 184,
+          "text_sha256": "f02d7233f6c8bbeca1bf104a89b8e4dceb6291e0f79222ad63397cb5db083fb5",
+          "module": 1,
+          "lecture": 4,
+          "selected": false
+        },
+        {
+          "page": 21,
+          "normalized_characters": 1387,
+          "text_sha256": "f571d45c2145aee995719d8131e98d026c550a34501c5d8d8299e39fe2f66d3c",
+          "module": 2,
+          "lecture": 1,
+          "selected": true
+        },
+        {
+          "page": 22,
+          "normalized_characters": 987,
+          "text_sha256": "bf48afa1b27af012748782de42b2579f34237256820ac1e4a107c317baee3bf6",
+          "module": 2,
+          "lecture": 1,
+          "selected": true
+        },
+        {
+          "page": 23,
+          "normalized_characters": 1112,
+          "text_sha256": "4c8a4619679d7befbd421770235ed81f387724d6a7a639c0b8b8e46e5bea5f71",
+          "module": 2,
+          "lecture": 1,
+          "selected": true
+        },
+        {
+          "page": 24,
+          "normalized_characters": 919,
+          "text_sha256": "34bac4a7e73e5787eeba6bbe3a646557fed191f059ab13a71d252972b06a2c89",
+          "module": 2,
+          "lecture": 1,
+          "selected": true
+        },
+        {
+          "page": 25,
+          "normalized_characters": 1467,
+          "text_sha256": "afeb4466a598a2c5390632faba6a8fc64c9b66c5b671a996b881bb6f7dd10fba",
+          "module": 2,
+          "lecture": 1,
+          "selected": true
+        },
+        {
+          "page": 26,
+          "normalized_characters": 1454,
+          "text_sha256": "fa42da9ff7b4860f92f2f858e2c18c2315f1b0b70d79b12f576a1ee1fe957b82",
+          "module": 2,
+          "lecture": 1,
+          "selected": true
+        },
+        {
+          "page": 27,
+          "normalized_characters": 1419,
+          "text_sha256": "ca79bc03c481f5e07ea8d8ff74d1102db03a3508898ab4aa21313f4adba163fe",
+          "module": 2,
+          "lecture": 2,
+          "selected": true
+        },
+        {
+          "page": 28,
+          "normalized_characters": 340,
+          "text_sha256": "082e8a3d0a8663e714850d4db3a4c2bfeecf43dbf90921e70272477f38a2d73c",
+          "module": 2,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 29,
+          "normalized_characters": 1055,
+          "text_sha256": "5d4c297b16df492211f47fd7d5b8226e1f1db03b561d62ff7f8e54b5643bed42",
+          "module": 2,
+          "lecture": 2,
+          "selected": true
+        },
+        {
+          "page": 30,
+          "normalized_characters": 1003,
+          "text_sha256": "ca9ad940c635dc3fdab502434940bbee6d5e2871c23b5fad9225efb4f1e1845b",
+          "module": 2,
+          "lecture": 2,
+          "selected": true
+        },
+        {
+          "page": 31,
+          "normalized_characters": 204,
+          "text_sha256": "cdc1868da0fae26ba664fc606cc5f9d056c50fb17d76ce7dc6ee51e4fb905a1a",
+          "module": 2,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 32,
+          "normalized_characters": 1207,
+          "text_sha256": "5cbef1211346ae68774d3d46cb404c138d189f78498d9aa6f83e82ea177d5a91",
+          "module": 2,
+          "lecture": 3,
+          "selected": true
+        },
+        {
+          "page": 33,
+          "normalized_characters": 1098,
+          "text_sha256": "63eb5214c52b1fdb701b746593598199af7de55abb62bf0e6dca57a1a70b5c0b",
+          "module": 2,
+          "lecture": 3,
+          "selected": true
+        },
+        {
+          "page": 34,
+          "normalized_characters": 1106,
+          "text_sha256": "5479f31751adbf91e297d58c157b56710fbff42f0a9b5158958ebffd8ebbfb19",
+          "module": 2,
+          "lecture": 3,
+          "selected": true
+        },
+        {
+          "page": 35,
+          "normalized_characters": 1181,
+          "text_sha256": "3ce89de63d0196857977798962b6116ab8baebf8b0d2ed291f0d0873efaa972f",
+          "module": 2,
+          "lecture": 3,
+          "selected": true
+        },
+        {
+          "page": 36,
+          "normalized_characters": 1542,
+          "text_sha256": "b19dc021b16ab92000d68381b1171263832198e8bae44563bafd3ae07b6d58b4",
+          "module": 2,
+          "lecture": 3,
+          "selected": true
+        },
+        {
+          "page": 37,
+          "normalized_characters": 758,
+          "text_sha256": "e425c2db2bda71d7f3e492cf0eaa5d8c39812515a07ca7bfd7306da3115f15a0",
+          "module": 2,
+          "lecture": 3,
+          "selected": true
+        },
+        {
+          "page": 38,
+          "normalized_characters": 953,
+          "text_sha256": "49d5103cfc933818170a9554945280be1a5443810514370b8e5581417c63d2fd",
+          "module": 2,
+          "lecture": 4,
+          "selected": true
+        },
+        {
+          "page": 39,
+          "normalized_characters": 716,
+          "text_sha256": "745e4c33f75d2fdc342640a2e12ac7c8322ecf873884b186cce0990a1cc45ee2",
+          "module": 2,
+          "lecture": 4,
+          "selected": true
+        },
+        {
+          "page": 40,
+          "normalized_characters": 1420,
+          "text_sha256": "8e5915375dc7dab729fdbe5c19e6ed1417dc917ae80714c9f307210dc2561ee0",
+          "module": 2,
+          "lecture": 4,
+          "selected": true
+        },
+        {
+          "page": 41,
+          "normalized_characters": 1160,
+          "text_sha256": "52595737c7b305c7e64033165135b3a4fecfa689afd856a6a69143098a007946",
+          "module": 2,
+          "lecture": 4,
+          "selected": true
+        },
+        {
+          "page": 42,
+          "normalized_characters": 1294,
+          "text_sha256": "1ad13057be1b4da00cc495957665a6451a17b01b0e01237183f92e25934661f3",
+          "module": 2,
+          "lecture": 5,
+          "selected": true
+        },
+        {
+          "page": 43,
+          "normalized_characters": 664,
+          "text_sha256": "fe8344e24a89b498f2e18a7e7de54c946fde3f803319ad1a79d548056ff9a337",
+          "module": 2,
+          "lecture": 5,
+          "selected": true
+        },
+        {
+          "page": 44,
+          "normalized_characters": 736,
+          "text_sha256": "2b763bf403e96ecb535feb56c9034ac609c1ff17bc4a7fb0f635fe75b0c45792",
+          "module": 2,
+          "lecture": 5,
+          "selected": true
+        },
+        {
+          "page": 45,
+          "normalized_characters": 662,
+          "text_sha256": "2e01f938a43c8221a128d64d20c258445e1d4ce4550c6a0856737548422d52a7",
+          "module": 2,
+          "lecture": 5,
+          "selected": true
+        },
+        {
+          "page": 46,
+          "normalized_characters": 1266,
+          "text_sha256": "69e86a6a5f3556679823c829746ae69b841dcd2af3cf86dfcb58ba326f10b65b",
+          "module": 2,
+          "lecture": 5,
+          "selected": true
+        },
+        {
+          "page": 47,
+          "normalized_characters": 1489,
+          "text_sha256": "64c83bf320752930e9fc680fdcb706de5084018217f51dbb76d45a175f818565",
+          "module": 3,
+          "lecture": 1,
+          "selected": true
+        },
+        {
+          "page": 48,
+          "normalized_characters": 931,
+          "text_sha256": "5d1ab6ae384b511109312d1cb6620966b6d5ae98b6c1e23684a9e22b4878f2c3",
+          "module": 3,
+          "lecture": 1,
+          "selected": true
+        },
+        {
+          "page": 49,
+          "normalized_characters": 838,
+          "text_sha256": "f8ea2e44ea6f4cd2f3cdef719b6577a48dd8c579dfc6335afae283ed748973e4",
+          "module": 3,
+          "lecture": 1,
+          "selected": true
+        },
+        {
+          "page": 50,
+          "normalized_characters": 1207,
+          "text_sha256": "d6f02351cc6f18ad51fc5a35fabfadfc7c999e0ab483aa99af7f31b09ae65eca",
+          "module": 3,
+          "lecture": 1,
+          "selected": true
+        },
+        {
+          "page": 51,
+          "normalized_characters": 1545,
+          "text_sha256": "c987a4567dcb5e3df97e5ed29850a6b43bcca13934130fd2195e3d5b466934ec",
+          "module": 3,
+          "lecture": 1,
+          "selected": true
+        },
+        {
+          "page": 52,
+          "normalized_characters": 1794,
+          "text_sha256": "f98812edd07bd2e23787f28b1e8b82404496544431eae35201b390ba8ee46709",
+          "module": 3,
+          "lecture": 1,
+          "selected": true
+        },
+        {
+          "page": 53,
+          "normalized_characters": 311,
+          "text_sha256": "e5cc05695f638308aa1c15b8a360a765a050ddd8e241a5e7aee0e9382d0c9558",
+          "module": 3,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 54,
+          "normalized_characters": 1442,
+          "text_sha256": "135c88bae5c3584925979bb1ac0c281aaadd9e457d7ae331b602841a1af45852",
+          "module": 3,
+          "lecture": 2,
+          "selected": true
+        },
+        {
+          "page": 55,
+          "normalized_characters": 1455,
+          "text_sha256": "bdc64e4ebeac990b3f4b947e0a04a567f396d262a2f4269beffa61790d7e808d",
+          "module": 3,
+          "lecture": 2,
+          "selected": true
+        },
+        {
+          "page": 56,
+          "normalized_characters": 1045,
+          "text_sha256": "d5f69ca14767832f8ef43ec9faea1a92e367119ef769af882165ce7f9179ab39",
+          "module": 3,
+          "lecture": 2,
+          "selected": true
+        },
+        {
+          "page": 57,
+          "normalized_characters": 1484,
+          "text_sha256": "d1436183e639ecbdedb25a3f9575a6788ffb12e6d092a6ce4034fe870fad1d19",
+          "module": 3,
+          "lecture": 2,
+          "selected": true
+        },
+        {
+          "page": 58,
+          "normalized_characters": 737,
+          "text_sha256": "02800c41f55315d165e6c32a44a1c8723e53e7ebcd52397f6997673d89d1bfb4",
+          "module": 3,
+          "lecture": 2,
+          "selected": true
+        },
+        {
+          "page": 59,
+          "normalized_characters": 1631,
+          "text_sha256": "9b45c6ac74dbe5eaa4d05c57d0dfdd736808ac45bdea38b5f5fb1d8636e051de",
+          "module": 4,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 60,
+          "normalized_characters": 1246,
+          "text_sha256": "4bf843c81177b9ad69aa28642fdb72680b3a2674aacb281175baa2f912515800",
+          "module": 4,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 61,
+          "normalized_characters": 1305,
+          "text_sha256": "0005ee9a0db5cce550accf793c9606f631b0088af544c58b98fdf436475cfcf3",
+          "module": 4,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 62,
+          "normalized_characters": 1072,
+          "text_sha256": "5c15388e5cdedc96be34288708a4c748c0f000bd9aa9818282c11d8c918e3332",
+          "module": 4,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 63,
+          "normalized_characters": 550,
+          "text_sha256": "6fc06c6c43aebc8204ba195480419f0db6dff5423ed751144f235c8ff687e35c",
+          "module": 4,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 64,
+          "normalized_characters": 1082,
+          "text_sha256": "745e25c140232294cb4caa4332650435ccbd2889466c5f8eb960dfce2be4b38d",
+          "module": 4,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 65,
+          "normalized_characters": 808,
+          "text_sha256": "8df872f4703db1e76777b521c751d26b51d5633072c4536b95976ffe2fa9b833",
+          "module": 4,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 66,
+          "normalized_characters": 1356,
+          "text_sha256": "058218a354952af2e9fd3ee1cd878da696c534b2a424853e12e57e8e19f2f088",
+          "module": 4,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 67,
+          "normalized_characters": 1407,
+          "text_sha256": "81e1151639fe11ef791791cec586402ee8e16ac9701fe312b30c039abf113536",
+          "module": 4,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 68,
+          "normalized_characters": 881,
+          "text_sha256": "b75febb15cb077f1a73ea9280e765d113436d0acbdf5a4c8c8430e2c3618aab9",
+          "module": 4,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 69,
+          "normalized_characters": 925,
+          "text_sha256": "5de643f981616f8aa5baf9b35899b6b9a02fb6966dcb21d214d0c6327c7e11b0",
+          "module": 4,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 70,
+          "normalized_characters": 1484,
+          "text_sha256": "6efb133342f754d308c430e774ce6eb2515fb082328fd34474e79f6c913cd2cf",
+          "module": 4,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 71,
+          "normalized_characters": 1690,
+          "text_sha256": "0f996ced6e390673888c6b28c248956e597453f0e5ec9fa474d9bff0c1a1a772",
+          "module": 5,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 72,
+          "normalized_characters": 1919,
+          "text_sha256": "37064de4d695172556dba24619722e2d5f03d98014cc1391db75182c0119279f",
+          "module": 5,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 73,
+          "normalized_characters": 1011,
+          "text_sha256": "f39756f3df3209f6f7dcc1a2e006cc57c232d45d3d6b7fa7c7a10bde25ba3b28",
+          "module": 5,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 74,
+          "normalized_characters": 1254,
+          "text_sha256": "0cd674dcac7175937dcc8ebf4abf06c98f97686bd14982fefcff7894970bf4a4",
+          "module": 5,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 75,
+          "normalized_characters": 640,
+          "text_sha256": "c027a7786f76cb45d51c9002b691d883ff7d32a1fd52e57ac09637151be19b32",
+          "module": 5,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 76,
+          "normalized_characters": 1635,
+          "text_sha256": "b9bd74663a1e8a2fbc83e60ff397ad9d6a23b8d6fbf2144505c42abcc899a0b2",
+          "module": 5,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 77,
+          "normalized_characters": 2170,
+          "text_sha256": "93d963184d3d75459d553fb3abb0dd0bf93b6dc2aeb3993c3fe9e81a89d0a4ca",
+          "module": 5,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 78,
+          "normalized_characters": 1353,
+          "text_sha256": "638794ac25cdbf30458cb82ebbf28268a25edacc4176790fef08c5bf7bdf83bd",
+          "module": 5,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 79,
+          "normalized_characters": 748,
+          "text_sha256": "64ed633d4020ebfd0eab808339e8ed62466eca0fc5c494a16e9ac30950b08f68",
+          "module": 5,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 80,
+          "normalized_characters": 1856,
+          "text_sha256": "27d783b7a6bc417405084bad67f87b329c48e63a1a25f44293e6ae08ad66e16b",
+          "module": 5,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 81,
+          "normalized_characters": 521,
+          "text_sha256": "af27e18b2c28b9a1800eb2c1ff1f8110df7d3a9cfb2e347bc55b104fe65376a9",
+          "module": 5,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 82,
+          "normalized_characters": 95,
+          "text_sha256": "ed54a7b2b14e8f3fcbba360ae5adb5feeefb0047721c5fcaad7c4c3d65648caf",
+          "module": 5,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 83,
+          "normalized_characters": 934,
+          "text_sha256": "835c97afff542417e4d4f8917c4ee0a331b55a4482b1414f6d0d434d9d3bdca5",
+          "module": 5,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 84,
+          "normalized_characters": 618,
+          "text_sha256": "99b651ebd73f85df81d9c9b7af4ba0c6cee545748f9e7bdee8bb47ffaf51b449",
+          "module": 5,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 85,
+          "normalized_characters": 1336,
+          "text_sha256": "128ce98b48ca2dc6ff2e68a807c4a4a4a5045b8c490e0b7fbd0c9558ca93ff7d",
+          "module": 5,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 86,
+          "normalized_characters": 1519,
+          "text_sha256": "03e701884bf3df3f367479c2c7324388d563f0d9bccfeaf87e99bf283f865498",
+          "module": 5,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 87,
+          "normalized_characters": 1303,
+          "text_sha256": "566bac4f875ce7c102eeac78d8b891fa6db8d87e675d7bd1a4843e7015e32dd3",
+          "module": 5,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 88,
+          "normalized_characters": 851,
+          "text_sha256": "ec92bcb948c6284b0bd266aa046dbbb56207b8b0d56467b0bf95df1404052b64",
+          "module": 5,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 89,
+          "normalized_characters": 1411,
+          "text_sha256": "e639c598ccd80ddc51629d0fbe44474c5a62618b006674f91b3a39e31a63b41a",
+          "module": 5,
+          "lecture": 4,
+          "selected": false
+        },
+        {
+          "page": 90,
+          "normalized_characters": 1827,
+          "text_sha256": "2c6a1ce25b14029cbefdbc8dc898c6366477ec940a4693146adde1a9fc66640e",
+          "module": 5,
+          "lecture": 4,
+          "selected": false
+        },
+        {
+          "page": 91,
+          "normalized_characters": 258,
+          "text_sha256": "dafdb1405baef83a9902ef2f77edcc551b1e1bbfea05b7e29a361a8a61d6ce6c",
+          "module": 5,
+          "lecture": 4,
+          "selected": false
+        },
+        {
+          "page": 92,
+          "normalized_characters": 1413,
+          "text_sha256": "1218ca7d6a61332688f25134e0d37cf157b55650fd80737cf52d4efd73c0732c",
+          "module": 5,
+          "lecture": 4,
+          "selected": false
+        },
+        {
+          "page": 93,
+          "normalized_characters": 688,
+          "text_sha256": "863aa80f71ca83cc2f183792cb715f2d6e030950135d6769dc2c16b5c4d26e42",
+          "module": 5,
+          "lecture": 4,
+          "selected": false
+        },
+        {
+          "page": 94,
+          "normalized_characters": 1069,
+          "text_sha256": "b1cd7d9347bf29e565a24287eae39bfdf9d6334ee7365f5a090f28b6596e50d5",
+          "module": 5,
+          "lecture": 5,
+          "selected": false
+        },
+        {
+          "page": 95,
+          "normalized_characters": 1599,
+          "text_sha256": "b6ed9cacab9ca206addabfcffeaabb35294fa13ca80bb778977ea52428e28fb0",
+          "module": 5,
+          "lecture": 5,
+          "selected": false
+        },
+        {
+          "page": 96,
+          "normalized_characters": 366,
+          "text_sha256": "b27edbeb8bce1127582bd0e5cedcc0cb8eb618d45c8ed809014e24ed4ab38e8d",
+          "module": 5,
+          "lecture": 5,
+          "selected": false
+        },
+        {
+          "page": 97,
+          "normalized_characters": 1617,
+          "text_sha256": "c89dfc2b99bc9b7c0118bc6769052a2618f800374c5fffdedd8d2ec114f9a76b",
+          "module": 5,
+          "lecture": 5,
+          "selected": false
+        },
+        {
+          "page": 98,
+          "normalized_characters": 1379,
+          "text_sha256": "7fa39b14848d2cf1f5b702f02724ec4a3a3c313b92d9fe112a3596bde44505a5",
+          "module": 5,
+          "lecture": 5,
+          "selected": false
+        },
+        {
+          "page": 99,
+          "normalized_characters": 1296,
+          "text_sha256": "807c04915b76c79f725c1c9d7b6d34dfc50e7f47eb59e39041890ace315a1038",
+          "module": 5,
+          "lecture": 6,
+          "selected": false
+        },
+        {
+          "page": 100,
+          "normalized_characters": 635,
+          "text_sha256": "933b7db83d68cbb019ed52e35a976153c6cd41e8def7675d87487028835fbc89",
+          "module": 5,
+          "lecture": 6,
+          "selected": false
+        },
+        {
+          "page": 101,
+          "normalized_characters": 1029,
+          "text_sha256": "ab2d5f89be52c4d0168f30108756d975fa2100f3dc3c77265e2f64a4ee6860f5",
+          "module": 5,
+          "lecture": 6,
+          "selected": false
+        },
+        {
+          "page": 102,
+          "normalized_characters": 1366,
+          "text_sha256": "8ffcddbd7a55c58d7785ba2d9f8b9a721b589f2058d1e1eb61be40328efb968e",
+          "module": 5,
+          "lecture": 6,
+          "selected": false
+        },
+        {
+          "page": 103,
+          "normalized_characters": 976,
+          "text_sha256": "e76e2b4ad3d7930fbe1369a32a560b47231e5d8430273bd30e5813430f9ef62a",
+          "module": 5,
+          "lecture": 6,
+          "selected": false
+        },
+        {
+          "page": 104,
+          "normalized_characters": 984,
+          "text_sha256": "4616213800224f9cdb5279b6e36c652f443e1052d697be7fc9414d0a2f776e46",
+          "module": 5,
+          "lecture": 6,
+          "selected": false
+        },
+        {
+          "page": 105,
+          "normalized_characters": 800,
+          "text_sha256": "442183c56c9a1d8dd7fb03b8911b8f89b7a682c120b5a2fb1596a38f51b9a9b0",
+          "module": 5,
+          "lecture": 6,
+          "selected": false
+        },
+        {
+          "page": 106,
+          "normalized_characters": 1349,
+          "text_sha256": "9b2aff7a0cca76c18d6e747e22ef997d63c20789c271139516077133a9a55fd7",
+          "module": 5,
+          "lecture": 7,
+          "selected": false
+        },
+        {
+          "page": 107,
+          "normalized_characters": 871,
+          "text_sha256": "994d2242899c59a1e541031e7fc84179aa06a20640779d5ff6fe2c1678df5d58",
+          "module": 5,
+          "lecture": 7,
+          "selected": false
+        },
+        {
+          "page": 108,
+          "normalized_characters": 1074,
+          "text_sha256": "d26706b295ba8356bfd2f35ce614f549885d27bc9545e451c9a83e3e86e9688a",
+          "module": 5,
+          "lecture": 7,
+          "selected": false
+        },
+        {
+          "page": 109,
+          "normalized_characters": 992,
+          "text_sha256": "5d077ea6d29beddbf8e1dc2fc56181958abd59474e5e0414ce96b5d10d205f03",
+          "module": 5,
+          "lecture": 7,
+          "selected": false
+        },
+        {
+          "page": 110,
+          "normalized_characters": 891,
+          "text_sha256": "984866757431d6e37c5e16c3ff2358069aa94c334844fcce4ccd04bc98124ada",
+          "module": 5,
+          "lecture": 7,
+          "selected": false
+        },
+        {
+          "page": 111,
+          "normalized_characters": 1119,
+          "text_sha256": "539305637b40429dfdb420641fe5578f2aa1fa372e74fa4df45ead8c82cb2245",
+          "module": 5,
+          "lecture": 7,
+          "selected": false
+        },
+        {
+          "page": 112,
+          "normalized_characters": 879,
+          "text_sha256": "de79dcf419394159dd33328de17b6464c566425cb862c70ae1867ec6bc357b3a",
+          "module": 5,
+          "lecture": 7,
+          "selected": false
+        },
+        {
+          "page": 113,
+          "normalized_characters": 683,
+          "text_sha256": "d7138f238a755f4251525e684ccf52410382151b4e14cca4f93da95ac774a3a3",
+          "module": 5,
+          "lecture": 8,
+          "selected": false
+        },
+        {
+          "page": 114,
+          "normalized_characters": 1744,
+          "text_sha256": "4bfe3d7bb14b7cdc511a91c27d96fa2ce1e8f6727ab41a048a189be2c04959fa",
+          "module": 5,
+          "lecture": 8,
+          "selected": false
+        },
+        {
+          "page": 115,
+          "normalized_characters": 1208,
+          "text_sha256": "4398482d3147a5a662d72c2fb0d50628db800a159daa3dbbfbc4c8058bbce31d",
+          "module": 5,
+          "lecture": 8,
+          "selected": false
+        },
+        {
+          "page": 116,
+          "normalized_characters": 1096,
+          "text_sha256": "6ee158147ccbb997e4235a6d9992ad9d83cb45b0f5398444e4ca070601262694",
+          "module": 5,
+          "lecture": 8,
+          "selected": false
+        },
+        {
+          "page": 117,
+          "normalized_characters": 830,
+          "text_sha256": "475803494e6d76b28bf576bb2f80bf3451e2b1f0f77f0c62a2022f03a3b120bf",
+          "module": 5,
+          "lecture": 8,
+          "selected": false
+        },
+        {
+          "page": 118,
+          "normalized_characters": 1200,
+          "text_sha256": "178a401875bb417c18bd837aa4ab74e06d088ea17248aae40237b596e08118da",
+          "module": 5,
+          "lecture": 8,
+          "selected": false
+        },
+        {
+          "page": 119,
+          "normalized_characters": 1073,
+          "text_sha256": "6356136da8b4b21b70f4c189291d18f1babbfa3522a310c8ae700db456f4acb0",
+          "module": 5,
+          "lecture": 8,
+          "selected": false
+        },
+        {
+          "page": 120,
+          "normalized_characters": 673,
+          "text_sha256": "5b9413be54b12318b612b610d6fcc4b8fec42eb81330c6a562fbeaeea2cbaf84",
+          "module": 5,
+          "lecture": 8,
+          "selected": false
+        },
+        {
+          "page": 121,
+          "normalized_characters": 756,
+          "text_sha256": "e42c97b278be00bc2edb221689dc3d7c351873d5bbd123bd05b5ae26482fb7ee",
+          "module": 6,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 122,
+          "normalized_characters": 1271,
+          "text_sha256": "91b7789dd772ef41d2f54c1c0f6cf650f37798d535e61a3c42bfedb101b45664",
+          "module": 6,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 123,
+          "normalized_characters": 1152,
+          "text_sha256": "ece021acd2228520a93f1571ee3308d9b572432cd2c8eaa76f1bc38a4f8adb74",
+          "module": 6,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 124,
+          "normalized_characters": 880,
+          "text_sha256": "91d6360344330d53568d9d3c1d3603c2a757fd59faf78c4132e5c73c4a1d5512",
+          "module": 6,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 125,
+          "normalized_characters": 658,
+          "text_sha256": "152189b6f430f8b78407c77f12be0fac2dd414aa5e907236b3f8ea17bb53822f",
+          "module": 6,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 126,
+          "normalized_characters": 436,
+          "text_sha256": "7581d7a8b2ba01b1beaee37359f5ab5ecf666cde3c34d9ea8423fdde590847bf",
+          "module": 6,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 127,
+          "normalized_characters": 1067,
+          "text_sha256": "d5c65e68e68b18800de7f89eecd5d882ed0e6adff1d4a94f96c246b80c23ee55",
+          "module": 6,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 128,
+          "normalized_characters": 1083,
+          "text_sha256": "eb845eb9aec15d6c76debb0c7b6174df3cfaf7498ca3f04c40c7aedf92fad422",
+          "module": 6,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 129,
+          "normalized_characters": 1036,
+          "text_sha256": "0e2ad4b7d459529f3f2de157d52e9f00aad52d919b3ccf90be0735ac1e6f6fda",
+          "module": 6,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 130,
+          "normalized_characters": 672,
+          "text_sha256": "81f5cf906f5475ce0b198efd74a9a4a5539df11706a22b10a4436e2cea26ef8c",
+          "module": 6,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 131,
+          "normalized_characters": 1167,
+          "text_sha256": "58c67be7946d6ac5e7c6a67a3212a057b746f363c5519ba21bdce5bbb6c237ae",
+          "module": 6,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 132,
+          "normalized_characters": 141,
+          "text_sha256": "08bd95a91d022516e24853e8eb8a9b508e77aa6f971067c64312a33ef698b6ff",
+          "module": 6,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 133,
+          "normalized_characters": 1374,
+          "text_sha256": "5feefd1e94c30bb3846e0a070b2a41db4845136155cdbefa2cb08dbee7937eca",
+          "module": 6,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 134,
+          "normalized_characters": 541,
+          "text_sha256": "a5822d893e6353ab30aa68561e1599dd01c0623b1bbf81133c2f736702f750d1",
+          "module": 6,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 135,
+          "normalized_characters": 978,
+          "text_sha256": "2955799b58711fa21276ebef87985e4c4877ea9b769e68d6b2424ff1e660df87",
+          "module": 6,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 136,
+          "normalized_characters": 1033,
+          "text_sha256": "5dbf5213b1221048b0ebd3d10caa511a3772cb87f449f2d5809e65610a203704",
+          "module": 6,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 137,
+          "normalized_characters": 1327,
+          "text_sha256": "59af61236de706ff8881941c29c23717e5432f0ea4b13dd73a093f29366f26de",
+          "module": 6,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 138,
+          "normalized_characters": 133,
+          "text_sha256": "6e7c4518ca7f9a3e6d043a2631e431815315175f818093d6f326f88daad27311",
+          "module": 6,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 139,
+          "normalized_characters": 2073,
+          "text_sha256": "b2524d2b0ff2d3f3001e58d00359a8df4c6c259bac0a46e11c5368b7c1b28dfc",
+          "module": 7,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 140,
+          "normalized_characters": 1114,
+          "text_sha256": "49e79c0b9a4ede199890bcd100a3c23fc58bebde83e8416147689a5d9f5016d9",
+          "module": 7,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 141,
+          "normalized_characters": 1636,
+          "text_sha256": "d59477fc26904aaf43eccc4e39afdd1d51bebc658ffaae9e9822125c7b25c1be",
+          "module": 7,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 142,
+          "normalized_characters": 1109,
+          "text_sha256": "b2e8bba978f9cc49574a1a759b2d17a0f91c544c0c61848a51e308571c343f35",
+          "module": 7,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 143,
+          "normalized_characters": 924,
+          "text_sha256": "a0d476f0118bed53e383e9fdf1071bb64aab171f03218524c0cfd3badbac8cf7",
+          "module": 7,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 144,
+          "normalized_characters": 1346,
+          "text_sha256": "ee46f585dc0d02df197c17fecc1d271fe435cd27cf8e74bf089de9093d6d68c3",
+          "module": 7,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 145,
+          "normalized_characters": 831,
+          "text_sha256": "a842a2b81f8aa462483dcae60e23fb3c0cd98e6fd9284dba78e1fa5150997b6a",
+          "module": 7,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 146,
+          "normalized_characters": 1091,
+          "text_sha256": "2b1cc3c2bb8ebbc91a507ee3a0d7a4daf418aabd85c10d686403f725a3a966c2",
+          "module": 7,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 147,
+          "normalized_characters": 922,
+          "text_sha256": "13441e8eff4d54f1534c08c8368c704a6cfcd63cc9462fac70357b25fa6ee8c8",
+          "module": 7,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 148,
+          "normalized_characters": 1626,
+          "text_sha256": "ac43091596b35f76e0c0b939676977acd2c097452cb4b7f2aab80b29c5adf6e2",
+          "module": 7,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 149,
+          "normalized_characters": 341,
+          "text_sha256": "9d3de8f5dcba7024336ae2e30470cdf30df88697935159eed85e4c70c995bdd2",
+          "module": 7,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 150,
+          "normalized_characters": 1482,
+          "text_sha256": "b0aea1f5ec75baae8e94e8310cc7f4851371f66b7df080dc518917aea4df9bca",
+          "module": 7,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 151,
+          "normalized_characters": 1596,
+          "text_sha256": "3f47f18dc7aff49f474cfd3a44a8d973538c1ee259a4e996e0bc8ac98febeaae",
+          "module": 7,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 152,
+          "normalized_characters": 1114,
+          "text_sha256": "c3e4b05256702f0777dccceb48c43255788f2ec1f49573852f1075ec01a05591",
+          "module": 7,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 153,
+          "normalized_characters": 968,
+          "text_sha256": "4353c4412974bd939d563328f4f4d20ee0e1c7b390fb8673823f4c5b739c1310",
+          "module": 7,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 154,
+          "normalized_characters": 1149,
+          "text_sha256": "754f2f5be428f5360aebb652ee00ca099b1b438e90e23b248804e96afa855eeb",
+          "module": 7,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 155,
+          "normalized_characters": 987,
+          "text_sha256": "9f772b4c1f23bb2e991c70fe1ad1ff4881a558c1bc6d34aae8b28231555ac17e",
+          "module": 7,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 156,
+          "normalized_characters": 684,
+          "text_sha256": "f4d0dbffe4c293ff04247944738fa1b0a727b6c48cf455677336076ae07c257c",
+          "module": 7,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 157,
+          "normalized_characters": 1024,
+          "text_sha256": "ed94af7a6938ef09796f6f4e4b4662a582f3a1ef3263df29049285b0bd8cca23",
+          "module": 7,
+          "lecture": 4,
+          "selected": false
+        },
+        {
+          "page": 158,
+          "normalized_characters": 1084,
+          "text_sha256": "b1336bab9dfe094656f4d5dd0b9a423ae8ae4a15340c2d879c56580986f23b22",
+          "module": 7,
+          "lecture": 4,
+          "selected": false
+        },
+        {
+          "page": 159,
+          "normalized_characters": 1169,
+          "text_sha256": "a4c23216ba2d38a066b0a184ef1d880eeb47e2f53d3e97c829fb7a16b58bd204",
+          "module": 7,
+          "lecture": 4,
+          "selected": false
+        },
+        {
+          "page": 160,
+          "normalized_characters": 1362,
+          "text_sha256": "75db6fbe94d75c392d4f64f94a8b1b73242326f7bec761659b115e185c00b3e9",
+          "module": 7,
+          "lecture": 4,
+          "selected": false
+        },
+        {
+          "page": 161,
+          "normalized_characters": 867,
+          "text_sha256": "81fb92c70b3d253b545a4477dfd99625e3de3a39a90ab4669dc1a7081d47df04",
+          "module": 7,
+          "lecture": 4,
+          "selected": false
+        },
+        {
+          "page": 162,
+          "normalized_characters": 1350,
+          "text_sha256": "b485f5f073de90b208c0224cdd582ff63b3bac8966ab53b587b0b858fbb7e09a",
+          "module": 7,
+          "lecture": 4,
+          "selected": false
+        },
+        {
+          "page": 163,
+          "normalized_characters": 1034,
+          "text_sha256": "20b25a52848cab4500a8d0f05ca6fcc4822af13f5978951056dc885ecec87525",
+          "module": 7,
+          "lecture": 4,
+          "selected": false
+        },
+        {
+          "page": 164,
+          "normalized_characters": 1765,
+          "text_sha256": "0ead415ce754e3facd64c399ea105ba4392811d194cd798c9f53c17dd9f28a9d",
+          "module": 8,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 165,
+          "normalized_characters": 1681,
+          "text_sha256": "f4b53726f944538610133f23ed41d81021ca034b84fc644ecb9b2d93f661b6b4",
+          "module": 8,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 166,
+          "normalized_characters": 1598,
+          "text_sha256": "c8c1462e6ce6b521dc8dd28f068997a95e3261868f6f78ab9c903763ed042e40",
+          "module": 8,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 167,
+          "normalized_characters": 1342,
+          "text_sha256": "c6c7cb09d75734085ca113e8a40ffdc2aa8c76c92057458b431622386ccfb3a2",
+          "module": 8,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 168,
+          "normalized_characters": 1718,
+          "text_sha256": "f90b51657910d873435fe9f92ebd02efc44152ac9920e1fbe73dc79b31d1cb5c",
+          "module": 8,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 169,
+          "normalized_characters": 1277,
+          "text_sha256": "8c299643f07ceb03a370ca93fb93a64d65856240f33db63fd3af5fb4836326ef",
+          "module": 8,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 170,
+          "normalized_characters": 1664,
+          "text_sha256": "d86adb2c5ca83ff427d6d7a60b1a5298d6514974ca1de106f3fdd1fdb13825f8",
+          "module": 8,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 171,
+          "normalized_characters": 1240,
+          "text_sha256": "f2f6af19d2ad0ceeab327267c963935f129be96b1c1fc8e6ae670ff8eb996c32",
+          "module": 8,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 172,
+          "normalized_characters": 721,
+          "text_sha256": "21a0f67fb57e1450eaf6cb351e75d32f94c04aead8efdc6ddcff2fc2b6fe52cf",
+          "module": 8,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 173,
+          "normalized_characters": 301,
+          "text_sha256": "a5f2356e3fa7ebc4cab1576eb93faaf8c86714898cba55ee63b2c6c8ef62f507",
+          "module": 8,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 174,
+          "normalized_characters": 1447,
+          "text_sha256": "57d0effdaa83fdf41bb398113462341fabe8ab790dd66834cb4d6138fea78359",
+          "module": 8,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 175,
+          "normalized_characters": 1447,
+          "text_sha256": "562f4246e465446da4204aa600b72b0a5764a68db3e40f248ac8a2a8b52f3914",
+          "module": 8,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 176,
+          "normalized_characters": 1628,
+          "text_sha256": "4bc1d298235793a73daf396b33130d6a605643960de345ca165d65513a0e01fd",
+          "module": 8,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 177,
+          "normalized_characters": 1812,
+          "text_sha256": "1208f8648a02a882e75861613855b3b165f24d733aa1b871a781a580f8092cf9",
+          "module": 8,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 178,
+          "normalized_characters": 1876,
+          "text_sha256": "aedab5bc62c4e5742205a6367cae2bc56689b05fa198046de5fce673ea207e6a",
+          "module": 8,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 179,
+          "normalized_characters": 1263,
+          "text_sha256": "563d64d6c9f65adad210166fe543d50ff7354b9864b60cf36555be2ba82cac5b",
+          "module": 8,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 180,
+          "normalized_characters": 1467,
+          "text_sha256": "cf0c2a5e2e8edfd99ffc8a0d142eddca0f70677a2db805915a6e699e43e0471a",
+          "module": 9,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 181,
+          "normalized_characters": 1678,
+          "text_sha256": "a39b7d2450f6c45507644f47403cd4248ed3085aab72c49ea929d4756cf5106e",
+          "module": 9,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 182,
+          "normalized_characters": 1388,
+          "text_sha256": "6aaefdc8630d5bde87f4c754bc4d7bb0724c486078fc6b3969840b5bdd36979e",
+          "module": 9,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 183,
+          "normalized_characters": 1236,
+          "text_sha256": "345d0908b6ee2db0a1ecca500eb154ee0633172c42bd5e3d946c403404234c1a",
+          "module": 9,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 184,
+          "normalized_characters": 993,
+          "text_sha256": "1b88b82efcc1a693b35c1d290953bffcb4b86f18d9aa17c90fc3dca696b46dcf",
+          "module": 9,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 185,
+          "normalized_characters": 973,
+          "text_sha256": "3dca0a41ffc6cf30e34eb63d83f08939fd2ca440afa79fa404510560357b0f42",
+          "module": 9,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 186,
+          "normalized_characters": 214,
+          "text_sha256": "4d0a08c031aca8220e1b4f5b7529ad6463423f712d6c8c320caeed6e1738f59c",
+          "module": 9,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 187,
+          "normalized_characters": 705,
+          "text_sha256": "2e912481fdab1529d68e61bbefb273664b97ebac44adf30b6132de5062796e14",
+          "module": 9,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 188,
+          "normalized_characters": 1136,
+          "text_sha256": "9d036cd2dcec4ac2cb483180f933936ad36d0b8c5fc3f92a609e911c870230e0",
+          "module": 9,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 189,
+          "normalized_characters": 1297,
+          "text_sha256": "b712cc9de7432d519906f043c8551d9ee7a58c257532e26860ceaf48716c9eef",
+          "module": 9,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 190,
+          "normalized_characters": 1165,
+          "text_sha256": "5babeab99576777cae5bab87d503d93ab85f34d2f6f900ea097b7bb30c9e824f",
+          "module": 9,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 191,
+          "normalized_characters": 1007,
+          "text_sha256": "2a7082e2c334cafa399dddb9c403574c741859938f79b6f3c7d91e1e394c4e04",
+          "module": 9,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 192,
+          "normalized_characters": 493,
+          "text_sha256": "a34d9abb4fd9a93bf4de3c36545a2e9a1b3d87ce2c79da44d7524a2620b26fb3",
+          "module": 9,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 193,
+          "normalized_characters": 1441,
+          "text_sha256": "53106ba227ff3b23b9c5a7c7ab4c419624f82223ecf9413285f70e9ebc7297ef",
+          "module": 9,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 194,
+          "normalized_characters": 1023,
+          "text_sha256": "0dba150636076fb293d8b7ee9ad3e100b28b9623e9d0d77e300910884538a72c",
+          "module": 9,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 195,
+          "normalized_characters": 1043,
+          "text_sha256": "dbcdb5a5eb88bbef0f1ccd20dc6dfd57e0d8d8fdcc1b5db0a69bb3b8b9ef285b",
+          "module": 9,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 196,
+          "normalized_characters": 1080,
+          "text_sha256": "ae09532042ea38006e953e2f506688b45ffb3fe858b019e34da1d4853bac18a6",
+          "module": 9,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 197,
+          "normalized_characters": 903,
+          "text_sha256": "e4ca0114a6593ff9a11221b5a10bf3f970fdedf81ab17b67d05ae91538d2d221",
+          "module": 9,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 198,
+          "normalized_characters": 165,
+          "text_sha256": "5184d14fd96aaf170bfe5526668c14754f0929ecc87bb1596232f44a234f7634",
+          "module": 9,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 199,
+          "normalized_characters": 1118,
+          "text_sha256": "03db7a3e2d676c69d85c05174198bf2e582f644008879df361bcb825952ae59e",
+          "module": 9,
+          "lecture": 4,
+          "selected": false
+        },
+        {
+          "page": 200,
+          "normalized_characters": 1074,
+          "text_sha256": "5ae63bcb50693cb5b319e4c3493e8c5ccad51feb515cf7f027213bcc4380d6ed",
+          "module": 9,
+          "lecture": 4,
+          "selected": false
+        },
+        {
+          "page": 201,
+          "normalized_characters": 800,
+          "text_sha256": "9c122519b6cc754801465c78e55d2a9593fa228b8e051b47863c5bbe639e82a4",
+          "module": 9,
+          "lecture": 4,
+          "selected": false
+        },
+        {
+          "page": 202,
+          "normalized_characters": 856,
+          "text_sha256": "11d074cd7593120377f6ddf0d8e583d050e658772dc2df942773d313f541dc9b",
+          "module": 9,
+          "lecture": 4,
+          "selected": false
+        },
+        {
+          "page": 203,
+          "normalized_characters": 1770,
+          "text_sha256": "04cb78ecc9de4db1e41dd29748dbce3da373ad8299a38203806dcafe4cd0e7c6",
+          "module": 9,
+          "lecture": 4,
+          "selected": false
+        },
+        {
+          "page": 204,
+          "normalized_characters": 751,
+          "text_sha256": "4ea20dc63461182ed9d9a3d0e66bb524fc085d0abbb885e3b0898863e5b67797",
+          "module": 9,
+          "lecture": 4,
+          "selected": false
+        },
+        {
+          "page": 205,
+          "normalized_characters": 628,
+          "text_sha256": "fded20d2f86bd6eed0f0387ef9307322bee9b81f7d98a48449327cdd2f82bf8c",
+          "module": 9,
+          "lecture": 4,
+          "selected": false
+        },
+        {
+          "page": 206,
+          "normalized_characters": 1085,
+          "text_sha256": "d760952ac1cf9adf50cce427115318b5c894cad3dcc295c71bf1f1be20dc31a4",
+          "module": 10,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 207,
+          "normalized_characters": 1525,
+          "text_sha256": "abc27223f5f39d3cc6f84662ac78524c7b74a5ef414670cd32241cfdf2a4572b",
+          "module": 10,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 208,
+          "normalized_characters": 1428,
+          "text_sha256": "692e74423559fb8c3a73630fbf48a157a8b1516f636e280b25753ce309ab4192",
+          "module": 10,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 209,
+          "normalized_characters": 1111,
+          "text_sha256": "6d2a44dca65a1ad096bb3aa43e6fce14e002bcf7beab7c59e8b359bc4229a4b0",
+          "module": 10,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 210,
+          "normalized_characters": 956,
+          "text_sha256": "383f0a5187089724ff1e0db985b727d6669d43237cfc88efb8269a558549296a",
+          "module": 10,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 211,
+          "normalized_characters": 662,
+          "text_sha256": "689567d5ed61dbf9d3371205fe1cafe2253c2f5f4f6026de9157f178370a7b22",
+          "module": 10,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 212,
+          "normalized_characters": 885,
+          "text_sha256": "22ad1e29a93c559502363d8b8e326ace2e3993e8b872c3c4058ed097752f8f28",
+          "module": 10,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 213,
+          "normalized_characters": 1230,
+          "text_sha256": "aa4f4216c83c35c0906fd4a78d0dab1149c0902dd78e86a8baa1aefce0aeaddb",
+          "module": 10,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 214,
+          "normalized_characters": 1093,
+          "text_sha256": "a9d20cdc6b80d98ee24f74670cce124ad1799753ecbbd1bd224e3e43b4be3ed6",
+          "module": 10,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 215,
+          "normalized_characters": 1263,
+          "text_sha256": "1c847acab4d03e1a94cc5066232cb1b06e87f4334d530f91a84b5349ec8895f8",
+          "module": 10,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 216,
+          "normalized_characters": 1382,
+          "text_sha256": "079cfb2c8c3b52628b3528cb2dc9e214a0b76f904d58935c9b2394c86110037d",
+          "module": 11,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 217,
+          "normalized_characters": 1412,
+          "text_sha256": "72d01b80e466592bc5ae9d1ccdb21d9d6d795171421754c219f6731013a8433f",
+          "module": 11,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 218,
+          "normalized_characters": 1028,
+          "text_sha256": "266ff3219d609cec02fa98d0fce226b8db934108bfae186a81653953edd22ff6",
+          "module": 11,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 219,
+          "normalized_characters": 1414,
+          "text_sha256": "2429bbed288d2bffe51375a5436c305ec568dfb46d575c9ac12ba34616dbbe13",
+          "module": 11,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 220,
+          "normalized_characters": 581,
+          "text_sha256": "833a4bdd6dd90c49615e46a3a86008b6727d4dcd9268d0a1340db5fd53bbb0bb",
+          "module": 11,
+          "lecture": 1,
+          "selected": false
+        },
+        {
+          "page": 221,
+          "normalized_characters": 1071,
+          "text_sha256": "b9fdafc9236ebc53062cb00b54b196ce74c3079f429257f41535b739a1844190",
+          "module": 11,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 222,
+          "normalized_characters": 1218,
+          "text_sha256": "ec523f1de521f45d3bbe4ad32c3fa30a05890bbb98269886403a545d6bab8468",
+          "module": 11,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 223,
+          "normalized_characters": 1198,
+          "text_sha256": "77e9cdbead573cf2837a29278cf0a1191f4329a54cce7e051ddce3da54a7e55a",
+          "module": 11,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 224,
+          "normalized_characters": 1211,
+          "text_sha256": "ebe28dd235aa5140dac503cdae1fc295260b99c0acc938279d23e2fafcc48e32",
+          "module": 11,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 225,
+          "normalized_characters": 862,
+          "text_sha256": "7bc7480c211c4a6ef87a195191ce043464f589cc3f0ea9786d0b269f32401ddf",
+          "module": 11,
+          "lecture": 2,
+          "selected": false
+        },
+        {
+          "page": 226,
+          "normalized_characters": 1059,
+          "text_sha256": "da6d0607c0edf931d3585b25f614c3f6d65fb9b14ae14e2cb9532a574b135b36",
+          "module": 11,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 227,
+          "normalized_characters": 1167,
+          "text_sha256": "9a294c69e4d492070672006c71d18330ad4cd88b8b24c91e79f982039c58dd5f",
+          "module": 11,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 228,
+          "normalized_characters": 1578,
+          "text_sha256": "d842637fec6c10033f6478d492361e86d836d6b0bda5a45280d29f972c00c7b7",
+          "module": 11,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 229,
+          "normalized_characters": 939,
+          "text_sha256": "aadaad03441676a0b5a2e56621d8d46c3e0fb31ba3e7075930eb5a931c9b8e3d",
+          "module": 11,
+          "lecture": 3,
+          "selected": false
+        },
+        {
+          "page": 230,
+          "normalized_characters": 648,
+          "text_sha256": "d74efc1038e29812f6c07268a2e7ae928651711fb089cd0943e3c1e69ba71b45",
+          "module": 11,
+          "lecture": 3,
+          "selected": false
+        }
+      ],
+      "page_counting_rule": "Chỉ tính trang nội dung liên quan; loại trang bìa, mục lục, trang trống và trang chỉ có tài liệu tham khảo.",
+      "status": "provenance_pending",
+      "sha256": "1a6ea27598537cf48555cc14b51cccd29fa78b96d4da948c0ecf60db96448585",
+      "selected_page_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        29,
+        30,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "selected_content_page_count": 54,
+      "selection_scope": "Module 1-3; physical PDF pages 1-58 excluding 20, 28, 31, 53",
+      "selection_method": "AI-assisted inspection of extracted text and printed Module/Lecture headers; learner source/PDF spot-check pending",
+      "excluded_pages_within_scope": {
+        "20": "Mostly a comparison plot of ZOH and FOH",
+        "28": "Mostly s-plane/z-plane mapping figures",
+        "31": "Mostly constant damping ratio figure",
+        "53": "Short continuation of symbolic calculation; excluded to keep text-rich content"
+      },
+      "local_inspected_at": "2026-11-13T17:53:47+07:00",
+      "normalization": "Unicode NFKC; whitespace cleaned; line breaks retained; soft hyphens removed",
+      "source_url_origin": "Provided by student 2A202603560 in this session.",
+      "source_url_verification": "Direct download matched the local PDF SHA-256.",
+      "source_link_checked_at": "2026-11-13T19:11:13+07:00",
+      "accessed_at_semantics": "Date the assistant actually downloaded the cited source and matched its SHA-256; original student download date unknown.",
+      "source_url_verified_sha256": "1a6ea27598537cf48555cc14b51cccd29fa78b96d4da948c0ecf60db96448585",
+      "redistribution_permission_verified": false,
+      "redistribution_policy": "PDF, extracted text, full evidence and raw review/trace packets remain local; public repo supplies code, offsets, statistics and reconstruction instructions."
+    }
+  ],
+  "metadata_schema": {
+    "document_id": "string; source_id from manifest",
+    "source": "string; repository-relative source PDF path",
+    "page": "integer; physical PDF page numbered from 1",
+    "module": "integer; verified from page header",
+    "lecture": "integer; verified from page header",
+    "language": "string; en, based on inspected English text"
+  },
+  "completion_notes": [
+    "Original source, license/permission and original access date remain unverified.",
+    "54 pages selected based on text inspection; mathematical formula fidelity is not guaranteed."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "model_revision": null,
+  "device": "cpu",
+  "batch_size": 24,
+  "torch_threads": 4,
+  "metric": "cosine",
+  "search_mode": "exact",
+  "seed": 42,
+  "strategies": {
+    "A": {
+      "chunking": "fixed",
+      "chunk_size": 480,
+      "overlap": 48,
+      "use_filter": false
+    },
+    "B": {
+      "chunking": "paragraph",
+      "chunk_size": 480,
+      "overlap": 0,
+      "use_filter": false
+    },
+    "C": {
+      "chunking": "paragraph",
+      "chunk_size": 480,
+      "overlap": 0,
+      "use_filter": true
+    }
+  },
+  "selection_rule": [
+    "dev_evidence_hit3",
+    "dev_hit1",
+    "lower_chunk_count",
+    "strategy_name"
+  ],
+  "test_policy": "Freeze configurations and choose on dev before test; never tune on test.",
+  "corpus_policy": "Only manifest-selected pages; gold answer/source/evidence are never passed to search."
+}

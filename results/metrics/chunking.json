@@ -1,0 +1,54 @@
+{
+  "stage": "character_chunking_before_embedding_token_limit",
+  "input_pages_sha256": "3b0e4bd284f4f066c7bf128aff49678b320e3a8dd5948c8c21a03d6a39269758",
+  "input_content_pages": 54,
+  "strategies": {
+    "A": {
+      "chunking": "fixed",
+      "chunk_size": 480,
+      "overlap": 48,
+      "use_filter": false,
+      "chunk_count": 177,
+      "total_characters_with_overlap": 71485,
+      "min_characters": 49,
+      "max_characters": 480,
+      "mean_characters": 403.87,
+      "median_characters": 480,
+      "chunking_validation_seconds": 0.003592
+    },
+    "B": {
+      "chunking": "paragraph",
+      "chunk_size": 480,
+      "overlap": 0,
+      "use_filter": false,
+      "chunk_count": 173,
+      "total_characters_with_overlap": 65508,
+      "min_characters": 51,
+      "max_characters": 479,
+      "mean_characters": 378.66,
+      "median_characters": 443,
+      "chunking_validation_seconds": 0.004886
+    },
+    "C": {
+      "chunking": "paragraph",
+      "chunk_size": 480,
+      "overlap": 0,
+      "use_filter": true,
+      "chunk_count": 173,
+      "total_characters_with_overlap": 65508,
+      "min_characters": 51,
+      "max_characters": 479,
+      "mean_characters": 378.66,
+      "median_characters": 443,
+      "chunking_validation_seconds": 0.0,
+      "reuses_chunks_from": "B"
+    }
+  },
+  "source_offsets_verified": true,
+  "all_nonwhitespace_content_covered": true,
+  "notes": [
+    "PDF paragraph boundaries can be ambiguous: B falls back to sentence/line boundaries, then words.",
+    "These are character-based chunks. Before embedding, apply the same model-token limit safeguard to all strategies and report final counts.",
+    "No embedding, database ingestion, retrieval or test scoring is performed in this step."
+  ]
+}

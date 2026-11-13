@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-11-13T18:19:39+07:00",
+  "status": "complete",
+  "backend": {
+    "postgres": "16.16 (Debian 16.16-1.pgdg12+1)",
+    "pgvector": "0.8.7",
+    "metric": "cosine",
+    "search_mode": "exact",
+    "table": "day6_chunks"
+  },
+  "model": {
+    "provider": "local Sentence Transformers",
+    "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "dimensions": 384,
+    "max_seq_length": 128,
+    "device": "cpu",
+    "normalization": "L2; encode() for both query and document; no prefixes",
+    "document_upload": false,
+    "service_cost_usd": 0.0,
+    "versions": {
+      "sentence-transformers": "5.7.0",
+      "transformers": "5.22.2",
+      "torch": "2.15.0",
+      "numpy": "2.5.4"
+    }
+  },
+  "embedding_manifest_sha256": "fcecc8e6063db07fc15f13c048a24e3284e7209b0800c875d45713b3010c6175",
+  "counts_before": {},
+  "counts_after_first": {
+    "A": 299,
+    "B": 273,
+    "C": 273
+  },
+  "counts_after_repeat": {
+    "A": 299,
+    "B": 273,
+    "C": 273
+  },
+  "idempotency_verified": true,
+  "strategies": {
+    "A": {
+      "first_upsert_seconds": 0.11294,
+      "repeat_upsert_seconds": 0.122622
+    },
+    "B": {
+      "first_upsert_seconds": 0.093485,
+      "repeat_upsert_seconds": 0.105815
+    },
+    "C": {
+      "first_upsert_seconds": 0.089055,
+      "repeat_upsert_seconds": 0.103215
+    }
+  },
+  "total_step_seconds": 0.989427,
+  "service_cost_usd": 0.0,
+  "update_policy": "Each upsert supplies the full snapshot of one strategy. Stable IDs are upserted; obsolete IDs within only that strategy are removed transactionally.",
+  "smoke_test": "Exact cosine self-vector search; C metadata filter checked; no benchmark questions executed.",
+  "persistence": "PostgreSQL named volume configured in starter/docker-compose.yml; container restart persistence not yet tested."
+}

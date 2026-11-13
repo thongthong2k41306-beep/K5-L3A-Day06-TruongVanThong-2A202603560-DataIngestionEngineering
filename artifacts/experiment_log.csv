@@ -1,4 +1,4 @@
-strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+﻿strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
+A,fixed,480,48,document_id/source/page/module/lecture/language,none,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2@e8f8c211226b894fcb81acc59f3b34ba3efd5f42,Fixed character windows provide a simple baseline; overlap can duplicate content or cut evidence.,4/15,6/15,2/5,2/5,Selected on dev: B; test not used for selection.
+B,paragraph,480,0,document_id/source/page/module/lecture/language,none,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2@e8f8c211226b894fcb81acc59f3b34ba3efd5f42,Sentence/paragraph/line boundaries may retain meaning better than fixed windows.,7/15,8/15,2/5,3/5,Selected on dev: B; test not used for selection.
+C,paragraph,480,0,document_id/source/page/module/lecture/language,question-supplied module/lecture,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2@e8f8c211226b894fcb81acc59f3b34ba3efd5f42,Question-supplied module/lecture scope may reduce off-topic retrieval; it can also over-restrict.,7/15,8/15,2/5,3/5,Selected on dev: B; test not used for selection.

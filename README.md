@@ -1,3 +1,23 @@
+<!-- STUDENT_RUN_GUIDE -->
+## Bài làm hiện tại — MSSV 2A202603560 / L3A
+
+Pipeline Python + PostgreSQL/pgvector đã chạy đủ ba cấu hình, 15 dev và 5 test. Dùng [hướng dẫn chạy thực tế](starter/README.md) cho bản bài làm này; nội dung đề gốc được giữ bên dưới.
+
+- [Thông tin và nguồn dữ liệu](data/manifest.json)
+- [Kết quả dev/test](results/metrics/combined.csv)
+- [Phương pháp và nhãn có AI hỗ trợ](results/manual_labels/README.md)
+
+Tạo báo cáo cá nhân từ PowerShell trong starter:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/build_report.py
+```
+
+Truong Van Thong; repo và tag chốt ghi trong STUDENT.md; quyền tái phân phối PDF chưa xác minh; 94 nhãn AI chưa có xác nhận của học viên. Nguồn Drive đã được tải và đối chiếu hash; ngày truy cập đã ghi trong manifest. [Cách tái tạo dữ liệu local](docs/DATA_ACCESS.md). Không tự coi bộ file hiện tại là bài đã được nộp.
+
+<!-- END_STUDENT_RUN_GUIDE -->
+
+---
 # Day 06 · Data Ingestion Engineering
 
 **Lab cá nhân** · **4 giờ** · **Dữ liệu tự chọn**

@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-11-13T19:39:34+07:00",
+  "status": "draft",
+  "student_id": "2A202603560",
+  "report": "report/individual/2A202603560_TruongVanThong.md",
+  "report_sha256": "09a46a05fa4a8f9ffaddcc927c0b35fa1cf36d7cd18cb69a34391eb7f0ed2944",
+  "missing_information": [
+    "Giấy phép/quyền xử lý và chia sẻ tài liệu"
+  ],
+  "ai_pending_confirmation_records": 94,
+  "sources": {
+    "dev": "93042ea6e562d8e68cf290884d75f0cfbdef40125c211ea1ed693d935fccb3f6",
+    "test": "13607e69f49640390a3f819edbb93cf096f3b52f7c690388f7497de2ed03e984",
+    "reviews": "c0556ffcff2c35f975a0dca459151409be3fa80c74dc2395033a554defb1e1c7",
+    "manifest": "8d234b9fb427e4f36aeaf61c86998ef89d98633ecbe459893c6f3471d34997ff"
+  },
+  "note": "Generated from real outputs; no test rerun or strategy change."
+}

@@ -1,0 +1,4 @@
+﻿strategy,split,questions,hit1_n,hit1,evidence_hit3_n,evidence_hit3,filter_questions,filter_compliant_n,filter_compliance,mean_latency_ms,chunk_count
+A,test,5,2,0.4,2,0.4,2,0,0.0,28.575280000222847,299
+B,test,5,2,0.4,3,0.6,2,0,0.0,24.083500000051572,273
+C,test,5,2,0.4,3,0.6,2,2,1.0,26.108079999903566,273

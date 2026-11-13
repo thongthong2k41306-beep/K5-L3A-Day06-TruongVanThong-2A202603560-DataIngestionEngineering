@@ -1,0 +1,10 @@
+{
+  "corrected_at": "2026-11-13T18:30:28+07:00",
+  "reason": "Restore intended Vietnamese question/reference-answer Unicode corrupted to ASCII question marks during file writing through PowerShell.",
+  "scope": "Only restore original intended question/answer text; IDs, splits, filters, gold pages, evidence and strategy/model/corpus settings unchanged.",
+  "before_questions_sha256": "e97f312fd54d27723bf486f89cea2108d5485036157391b9cd39a76d00035a34",
+  "after_questions_sha256": "c88ec5ce094d4a68f06526c9f3dc99761e3e9f45891b8f06eedc6ecb9bf8d383",
+  "archive": "results/archive/dev_before_utf8_fix_20261113_183028",
+  "holdout_test_executed_before_correction": false,
+  "dev_rerun_required": true
+}

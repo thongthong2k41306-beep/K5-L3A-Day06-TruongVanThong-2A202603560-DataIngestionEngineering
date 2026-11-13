@@ -8,3 +8,17 @@ __pycache__/
 .DS_Store
 .pytest_cache/
 *.sqlite
+.cache/
+artifacts/embedding_cache/
+starter/.venv/
+# Local source material and source-bearing outputs; reproduce from the cited PDF.
+/starter/data/*.pdf
+/data/processed/
+/benchmark/questions.json
+/benchmark/question_specs.json
+/benchmark/coherence_positions.json
+/results/traces/
+/results/manual_labels/
+/results/archive/
+/artifacts/submission/
+/.vscode/

@@ -1,0 +1,17 @@
+{
+  "provider": "local Sentence Transformers",
+  "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "dimensions": 384,
+  "max_seq_length": 128,
+  "device": "cpu",
+  "normalization": "L2; encode() for both query and document; no prefixes",
+  "document_upload": false,
+  "service_cost_usd": 0.0,
+  "versions": {
+    "sentence-transformers": "5.7.0",
+    "transformers": "5.22.2",
+    "torch": "2.15.0",
+    "numpy": "2.5.4"
+  }
+}

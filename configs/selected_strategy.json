@@ -1,0 +1,28 @@
+{
+  "frozen_at": "2026-11-13T18:33:08+07:00",
+  "selected_strategy": "B",
+  "selected_on_split": "dev",
+  "selection_rule": [
+    "highest dev Evidence Hit@3",
+    "highest dev Hit@1",
+    "lowest chunk count",
+    "alphabetical strategy name"
+  ],
+  "test_results_used_for_selection": false,
+  "input_fingerprints": {
+    "questions": "c88ec5ce094d4a68f06526c9f3dc99761e3e9f45891b8f06eedc6ecb9bf8d383",
+    "protocol": "e8fbe120eca0c8893a83a5f4c83bbc3c57da6b4dc628b2d75e2bf904d2a70008",
+    "strategies": "ae7d9fd042abe59f351705f1e98c067f53fc19de6525da965e15a0628fa25916",
+    "pages": "3b0e4bd284f4f066c7bf128aff49678b320e3a8dd5948c8c21a03d6a39269758",
+    "embeddings": "fcecc8e6063db07fc15f13c048a24e3284e7209b0800c875d45713b3010c6175",
+    "ingestion": "4fa998840e1601dc835ee93d206815d4c0612677791bb35c7ceecebc478d3472",
+    "model_lock": "a8467689dcf513212b7e8527be7d51c3fb24cd5a235fe22f5610b98b816dc5a4",
+    "retrieval_code": "1489d4d89b244787856bf5b20d4fd334db06994248d817e82a9a1e018313474d",
+    "evaluation_code": "6ce871d4e69210ac9eae652d6d0db3b55dd0a0a580927e62e7cc3c352a27c35f",
+    "store_code": "400481feefaa06c9df14c41353e3cf51f9161f2529e245f96353e15472b6ca1a",
+    "embedding_code": "620c59e212580e44aab8433eca4c040022ace88a68cad60e6e908b71eb611d4b"
+  },
+  "dev_metrics_sha256": "93042ea6e562d8e68cf290884d75f0cfbdef40125c211ea1ed693d935fccb3f6",
+  "dev_traces_sha256": "4b9fe7dc094967c698fd2bfb1607a345594947830e3afd8750bab60c4024c80f",
+  "coherence_positions_sha256": "48621cd37fb20f79fc06ac03279cf513ce09cbfdf6d0f78337392172151c1ce9"
+}

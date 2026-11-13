@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-11-13T19:25:00+07:00",
+  "download_url": "https://drive.google.com/uc?export=download&id=1PUynNV8-UVpHyM8ec4wIlvuqkM6UA-cy",
+  "method": "Direct HTTP GET of student-provided Drive file; SHA-256 comparison",
+  "remote_content_verified": true,
+  "permission_verified": false,
+  "content_type": "application/octet-stream",
+  "download_sha256": "1a6ea27598537cf48555cc14b51cccd29fa78b96d4da948c0ecf60db96448585",
+  "local_sha256": "1a6ea27598537cf48555cc14b51cccd29fa78b96d4da948c0ecf60db96448585"
+}

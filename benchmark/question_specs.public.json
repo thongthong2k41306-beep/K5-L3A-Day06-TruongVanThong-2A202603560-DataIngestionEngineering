@@ -1,0 +1,327 @@
+{
+  "format_version": 1,
+  "pdf_sha256": "1a6ea27598537cf48555cc14b51cccd29fa78b96d4da948c0ecf60db96448585",
+  "offset_space": "Unicode NFKC page with all whitespace runs collapsed to one space",
+  "questions_newline": "crlf",
+  "questions_utf8_bom": false,
+  "questions": [
+    {
+      "id": "q01",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "Trong hệ điều khiển số, thuật toán điều khiển được thực hiện ở đâu?",
+      "expected_answer": "Trong máy tính số.",
+      "gold_source_id": "digital-control-system",
+      "gold_page": 1,
+      "evidence_span": {
+        "start": 806,
+        "end": 895
+      },
+      "filter": {},
+      "gold_review_method": "AI-assisted reading; complete quote verified against normalized page; learner semantic review pending"
+    },
+    {
+      "id": "q02",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "question": "Lấy mẫu biến tín hiệu thời gian liên tục thành dạng dữ liệu nào?",
+      "expected_answer": "Một dãy số tại các khoảng thời gian rời rạc.",
+      "gold_source_id": "digital-control-system",
+      "gold_page": 1,
+      "evidence_span": {
+        "start": 1283,
+        "end": 1406
+      },
+      "filter": {},
+      "gold_review_method": "AI-assisted reading; complete quote verified against normalized page; learner semantic review pending"
+    },
+    {
+      "id": "q03",
+      "split": "dev",
+      "type": "dieu_kien_ngoai_le",
+      "question": "Aliasing có thể ảnh hưởng đến việc phân biệt và khôi phục tín hiệu từ mẫu như thế nào?",
+      "expected_answer": "Các tín hiệu khác nhau có thể trở nên không phân biệt được; tín hiệu tái dựng có thể khác tín hiệu gốc và làm giảm chất lượng điều khiển.",
+      "gold_source_id": "digital-control-system",
+      "gold_page": 3,
+      "evidence_span": {
+        "start": 1425,
+        "end": 1715
+      },
+      "filter": {},
+      "gold_review_method": "AI-assisted reading; complete quote verified against normalized page; learner semantic review pending"
+    },
+    {
+      "id": "q04",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "Vì sao hệ sinh học được xem là hệ được lấy mẫu một cách tự nhiên?",
+      "expected_answer": "Vì tín hiệu trong hệ thần kinh được truyền dưới dạng xung.",
+      "gold_source_id": "digital-control-system",
+      "gold_page": 4,
+      "evidence_span": {
+        "start": 139,
+        "end": 280
+      },
+      "filter": {},
+      "gold_review_method": "AI-assisted reading; complete quote verified against normalized page; learner semantic review pending"
+    },
+    {
+      "id": "q05",
+      "split": "dev",
+      "type": "metadata_filter",
+      "question": "Theo Module 1, Lecture 2, hệ thời gian rời rạc được biểu diễn bằng loại phương trình nào và bài giảng tập trung vào loại hệ nào nếu không nói khác?",
+      "expected_answer": "Biểu diễn bằng phương trình sai phân; tập trung vào hệ tuyến tính bất biến theo thời gian (LTI).",
+      "gold_source_id": "digital-control-system",
+      "gold_page": 5,
+      "evidence_span": {
+        "start": 131,
+        "end": 290
+      },
+      "filter": {
+        "module": 1,
+        "lecture": 2
+      },
+      "gold_review_method": "AI-assisted reading; complete quote verified against normalized page; learner semantic review pending"
+    },
+    {
+      "id": "q06",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "question": "Dạng truy hồi của tích phân hình chữ nhật lùi giảm yêu cầu lưu trữ bằng cách chỉ giữ những giá trị quá khứ nào?",
+      "expected_answer": "Chỉ cần mẫu tín hiệu ngay trước đó và giá trị tích phân ngay trước đó.",
+      "gold_source_id": "digital-control-system",
+      "gold_page": 7,
+      "evidence_span": {
+        "start": 220,
+        "end": 462
+      },
+      "filter": {},
+      "gold_review_method": "AI-assisted reading; complete quote verified against normalized page; learner semantic review pending"
+    },
+    {
+      "id": "q07",
+      "split": "dev",
+      "type": "dieu_kien_ngoai_le",
+      "question": "Để tránh aliasing, tốc độ lấy mẫu phải so với Nyquist rate và tần số cao nhất của tín hiệu như thế nào?",
+      "expected_answer": "Tốc độ lấy mẫu phải lớn hơn Nyquist rate; Nyquist rate bằng hai lần thành phần tần số cao nhất của tín hiệu gốc.",
+      "gold_source_id": "digital-control-system",
+      "gold_page": 12,
+      "evidence_span": {
+        "start": 516,
+        "end": 669
+      },
+      "filter": {},
+      "gold_review_method": "AI-assisted reading; complete quote verified against normalized page; learner semantic review pending"
+    },
+    {
+      "id": "q08",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "Trong thực tế, thiết bị nào thường được đặt sau đầu ra bộ lấy mẫu, dẫn đến tên gọi sample and hold?",
+      "expected_answer": "Một thiết bị giữ mẫu (hold device).",
+      "gold_source_id": "digital-control-system",
+      "gold_page": 14,
+      "evidence_span": {
+        "start": 152,
+        "end": 309
+      },
+      "filter": {},
+      "gold_review_method": "AI-assisted reading; complete quote verified against normalized page; learner semantic review pending"
+    },
+    {
+      "id": "q09",
+      "split": "dev",
+      "type": "metadata_filter",
+      "question": "Theo Module 1, Lecture 4, vì sao phép giữ mẫu là cách tái dựng dữ liệu phổ biến trong hệ điều khiển?",
+      "expected_answer": "Vì nó đơn giản và có chi phí thấp.",
+      "gold_source_id": "digital-control-system",
+      "gold_page": 15,
+      "evidence_span": {
+        "start": 574,
+        "end": 691
+      },
+      "filter": {
+        "module": 1,
+        "lecture": 4
+      },
+      "gold_review_method": "AI-assisted reading; complete quote verified against normalized page; learner semantic review pending"
+    },
+    {
+      "id": "q10",
+      "split": "dev",
+      "type": "dieu_kien_ngoai_le",
+      "question": "Vì sao tăng bậc đạo hàm để tái dựng tín hiệu có thể gây bất lợi về ổn định và chi phí?",
+      "expected_answer": "Đạo hàm bậc cao cần nhiều mẫu trễ, làm giảm ổn định vòng kín; ngoại suy bậc cao cần mạch phức tạp và tăng chi phí.",
+      "gold_source_id": "digital-control-system",
+      "gold_page": 16,
+      "evidence_span": {
+        "start": 55,
+        "end": 441
+      },
+      "filter": {},
+      "gold_review_method": "AI-assisted reading; complete quote verified against normalized page; learner semantic review pending"
+    },
+    {
+      "id": "q11",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "Khi chu kỳ lấy mẫu T tiến về 0, đầu ra zero-order hold tiến gần đến tín hiệu nào?",
+      "expected_answer": "Tín hiệu thời gian liên tục ban đầu.",
+      "gold_source_id": "digital-control-system",
+      "gold_page": 16,
+      "evidence_span": {
+        "start": 1120,
+        "end": 1262
+      },
+      "filter": {},
+      "gold_review_method": "AI-assisted reading; complete quote verified against normalized page; learner semantic review pending"
+    },
+    {
+      "id": "q12",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "question": "Phương pháp điều khiển cổ điển và hiện đại khác nhau ở mô hình dùng để thiết kế như thế nào?",
+      "expected_answer": "Phương pháp cổ điển dựa vào mô hình hàm truyền và phép biến đổi; phương pháp hiện đại dựa vào mô hình biến trạng thái.",
+      "gold_source_id": "digital-control-system",
+      "gold_page": 21,
+      "evidence_span": {
+        "start": 289,
+        "end": 460
+      },
+      "filter": {},
+      "gold_review_method": "AI-assisted reading; complete quote verified against normalized page; learner semantic review pending"
+    },
+    {
+      "id": "q13",
+      "split": "dev",
+      "type": "metadata_filter",
+      "question": "Theo Module 2, Lecture 1, khó khăn nào trong biểu thức Laplace của tín hiệu số hoặc lấy mẫu tạo động lực dùng Z-transform?",
+      "expected_answer": "Biểu thức chứa các số hạng mũ dạng e^(Ts), gây khó khăn khi thao tác trong miền Laplace.",
+      "gold_source_id": "digital-control-system",
+      "gold_page": 21,
+      "evidence_span": {
+        "start": 625,
+        "end": 873
+      },
+      "filter": {
+        "module": 2,
+        "lecture": 1
+      },
+      "gold_review_method": "AI-assisted reading; complete quote verified against normalized page; learner semantic review pending"
+    },
+    {
+      "id": "q14",
+      "split": "dev",
+      "type": "dieu_kien_ngoai_le",
+      "question": "Trong Z-transform một phía, giá trị tại điểm gián đoạn t=0 được quy ước theo phía nào?",
+      "expected_answer": "Giả sử hàm liên tục bên phải: x(0) = x(0+).",
+      "gold_source_id": "digital-control-system",
+      "gold_page": 23,
+      "evidence_span": {
+        "start": 469,
+        "end": 671
+      },
+      "filter": {},
+      "gold_review_method": "AI-assisted reading; complete quote verified against normalized page; learner semantic review pending"
+    },
+    {
+      "id": "q15",
+      "split": "dev",
+      "type": "metadata_filter",
+      "question": "Theo Module 2, Lecture 2, các điểm ở nửa trái mặt phẳng s được ánh xạ đến vùng nào của mặt phẳng z?",
+      "expected_answer": "Bên trong đường tròn đơn vị của mặt phẳng z.",
+      "gold_source_id": "digital-control-system",
+      "gold_page": 27,
+      "evidence_span": {
+        "start": 1215,
+        "end": 1313
+      },
+      "filter": {
+        "module": 2,
+        "lecture": 2
+      },
+      "gold_review_method": "AI-assisted reading; complete quote verified against normalized page; learner semantic review pending"
+    },
+    {
+      "id": "q16",
+      "split": "test",
+      "type": "dieu_kien_ngoai_le",
+      "question": "Một hệ LTI có mọi điều kiện ban đầu bằng 0 được gọi là ổn định BIBO khi thỏa điều kiện nào đối với đầu vào và đầu ra?",
+      "expected_answer": "Với mọi đầu vào bị chặn, đầu ra cũng bị chặn.",
+      "gold_source_id": "digital-control-system",
+      "gold_page": 47,
+      "evidence_span": {
+        "start": 579,
+        "end": 746
+      },
+      "filter": {},
+      "gold_review_method": "AI-assisted reading; complete quote verified against normalized page; learner semantic review pending"
+    },
+    {
+      "id": "q17",
+      "split": "test",
+      "type": "dieu_kien_ngoai_le",
+      "question": "Theo phần ổn định trên mặt phẳng z, hệ có cực bội nằm trên đường tròn đơn vị được kết luận như thế nào?",
+      "expected_answer": "Hệ không ổn định.",
+      "gold_source_id": "digital-control-system",
+      "gold_page": 47,
+      "evidence_span": {
+        "start": 1333,
+        "end": 1388
+      },
+      "filter": {},
+      "gold_review_method": "AI-assisted reading; complete quote verified against normalized page; learner semantic review pending"
+    },
+    {
+      "id": "q18",
+      "split": "test",
+      "type": "metadata_filter",
+      "question": "Trong Module 3, Lecture 1, tình huống nào khiến việc lập bảng Jury kết thúc sớm và được gọi là singular case?",
+      "expected_answer": "Khi một số hoặc tất cả phần tử trong một hàng của bảng Jury bằng 0.",
+      "gold_source_id": "digital-control-system",
+      "gold_page": 52,
+      "evidence_span": {
+        "start": 54,
+        "end": 208
+      },
+      "filter": {
+        "module": 3,
+        "lecture": 1
+      },
+      "gold_review_method": "AI-assisted reading; complete quote verified against normalized page; learner semantic review pending"
+    },
+    {
+      "id": "q19",
+      "split": "test",
+      "type": "metadata_filter",
+      "question": "Theo Module 3, Lecture 2, phép biến đổi song tuyến tính ánh xạ phần trong đường tròn đơn vị của mặt phẳng z sang vùng nào của mặt phẳng w?",
+      "expected_answer": "Nửa trái mặt phẳng w.",
+      "gold_source_id": "digital-control-system",
+      "gold_page": 54,
+      "evidence_span": {
+        "start": 627,
+        "end": 731
+      },
+      "filter": {
+        "module": 3,
+        "lecture": 2
+      },
+      "gold_review_method": "AI-assisted reading; complete quote verified against normalized page; learner semantic review pending"
+    },
+    {
+      "id": "q20",
+      "split": "test",
+      "type": "dieu_kien_ngoai_le",
+      "question": "Khi phần tử đầu tiên của một hàng trong bảng Routh bằng 0, bài giảng hướng dẫn xử lý và kiểm tra ổn định ra sao?",
+      "expected_answer": "Thay 0 bằng số epsilon nhỏ, tiếp tục lập bảng rồi xét trường hợp giới hạn.",
+      "gold_source_id": "digital-control-system",
+      "gold_page": 57,
+      "evidence_span": {
+        "start": 226,
+        "end": 382
+      },
+      "filter": {},
+      "gold_review_method": "AI-assisted reading; complete quote verified against normalized page; learner semantic review pending"
+    }
+  ]
+}

@@ -1,65 +1,102 @@
-# Starter · PostgreSQL + pgvector
+# Bài làm — Digital Control / PostgreSQL + pgvector
 
-Bộ khởi động **tùy chọn** cho lab cá nhân. Docker Compose tạo PostgreSQL + pgvector local; các file trong `src/` là **khung pseudocode có TODO**, chưa đọc tài liệu, tạo embedding, lưu vector hay chạy benchmark. Bạn cần tự hiện thực. Vẫn có thể chọn Qdrant, Chroma hoặc vector store tương đương theo [GUIDE.md](../GUIDE.md).
+Pipeline đã được triển khai trong src/ và scripts/. Dữ liệu: Digital control system.pdf; MSSV 2A202603560, L3A. Học viên: Truong Van Thong. Quyền tái phân phối PDF chưa được xác minh. Nguồn Drive do học viên cung cấp nằm trong ../data/manifest.json; đã tải trực tiếp và đối chiếu hash trùng file local; chưa xác minh giấy phép.
 
-## Cấu trúc
+## Setup trên Windows PowerShell
 
-```text
-starter/
-├── docker-compose.yml     # PostgreSQL 16 + pgvector, chỉ mở cổng local
-├── init.sql               # bật extension khi tạo database mới
-├── requirements.txt       # psycopg, pypdf và python-dotenv
-├── .env.example           # cấu hình mẫu; copy thành .env
-├── scripts/check_setup.py # kiểm tra kết nối và extension (đã chạy được)
-├── src/
-│   ├── models.py          # cấu trúc dữ liệu mẫu
-│   ├── ingestion.py       # TODO: đọc / chuẩn hóa tài liệu
-│   ├── chunking.py        # TODO: chia chunk
-│   ├── embeddings.py      # TODO: chọn model API hoặc local
-│   ├── store.py           # TODO: lưu vector, metadata và filter
-│   ├── evaluation.py      # TODO: chấm truy xuất, lưu trace
-│   └── run.py             # TODO: kết nối các bước thành pipeline
-├── data/                  # bạn tự chuẩn bị corpus được phép sử dụng
-└── results/               # lưu kết quả của bạn
-```
+Đã chạy bằng Python 3.13.15, PostgreSQL 16.16 và pgvector 0.8.7. Từ repo root:
 
-## 1. Cài và kiểm tra database
-
-Cần Docker Desktop hoặc Docker Engine + Compose, Python **3.11–3.14**, và mạng để tải image/dependencies lần đầu. Các lệnh sau chạy từ thư mục `starter/`:
-
-```bash
+```powershell
 cd starter
-python3 -m venv .venv
-```
-
-Kích hoạt `.venv`: macOS/Linux dùng `source .venv/bin/activate`; Windows PowerShell dùng `.venv\Scripts\Activate.ps1`. Sau đó:
-
-```bash
-python -m pip install -r requirements.txt
-# macOS/Linux: cp .env.example .env
-# Windows PowerShell: Copy-Item .env.example .env
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements-lock.txt
+if (-not (Test-Path -LiteralPath .env)) { Copy-Item .env.example .env }
 docker compose -p day6_student_starter up -d --wait
-python scripts/check_setup.py
+.\.venv\Scripts\python.exe scripts/check_setup.py
 ```
 
-Kỳ vọng: hiện tên database, phiên bản PostgreSQL và pgvector, sau đó `Setup OK`. Đây **chỉ là kiểm tra hạ tầng**, không phải kết quả benchmark. Docker dùng cổng `127.0.0.1:55433` và mật khẩu cố định **chỉ dùng local cho lab**; nếu cổng bận, sửa đồng thời port trong `docker-compose.yml` và `DATABASE_URL` trong `.env`. `init.sql` chỉ chạy khi volume mới được tạo; nếu database sẵn có chưa bật extension, xem log Docker và kiểm tra cấu hình thay vì xóa volume chứa dữ liệu.
+Database ở 127.0.0.1:55433; cấu hình trong .env. Không commit .env. Model chạy local, không cần API key. Cache/trọng số không có trong Git nên lần đầu cần mạng tải model.
 
-Dừng container nhưng giữ dữ liệu:
+## Các bước chạy
 
-```bash
+Các lệnh sau chạy từ starter. Bộ kết quả dev/test hiện có được giữ để kiểm tra. Muốn tái lập từ đầu, làm trên bản sao repo riêng, giữ thư mục results cũ dưới tên results_reference trong bản sao trước khi bắt đầu; nguồn gốc chưa được phép chia sẻ thì tự cung cấp PDF local theo manifest.
+
+```powershell
+.\.venv\Scripts\python.exe scripts/prepare_data.py
+.\.venv\Scripts\python.exe scripts/build_benchmark.py
+.\.venv\Scripts\python.exe scripts/check_benchmark.py
+.\.venv\Scripts\python.exe scripts/prepare_chunks.py
+.\.venv\Scripts\python.exe scripts/embed_chunks.py --download-model
+.\.venv\Scripts\python.exe scripts/ingest_vectors.py
+.\.venv\Scripts\python.exe scripts/run_dev.py
+.\.venv\Scripts\python.exe scripts/run_test.py
+.\.venv\Scripts\python.exe scripts/prepare_audits.py
+```
+
+Đọc và chấm các phiếu trong ../results/manual_labels/, ghi đúng người chấm và phương pháp AI nếu có. Sau đó:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/collect_audits.py
+.\.venv\Scripts\python.exe scripts/build_report.py
+```
+
+build_benchmark.py tái tạo câu hỏi và evidence từ question_specs.public.json với offset số trên text local, không sinh câu mới bằng model. Bộ câu hỏi đã chốt có thể được kiểm tra bằng check_benchmark.py; không sửa sau khi nhìn test để tinh chỉnh.
+
+## Kiểm tra bộ kết quả đã có
+
+```powershell
+.\.venv\Scripts\python.exe -m src.run
+.\.venv\Scripts\python.exe scripts/run_test.py --check-only
+.\.venv\Scripts\python.exe scripts/collect_audits.py --check-only
+.\.venv\Scripts\python.exe scripts/build_report.py --check-only
+.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+```
+
+src.run mặc định chỉ hiện trạng thái; --stage data/benchmark/chunks/embedding/ingest/dev/test/audits/reviews/report chạy từng bước. Ví dụ:
+
+```powershell
+.\.venv\Scripts\python.exe -m src.run --stage report
+```
+
+run_dev.py từ chối chạy lại nếu có test. run_test.py xác minh cấu hình đã chốt trên dev và không ghi đè trace test đã tồn tại. Các lệnh check-only không chạy truy xuất hoặc sửa cấu hình. Bản báo cáo cũ được sao lưu khi build_report.py tạo lại.
+
+## Artifacts và cách đánh giá
+
+- ../data/manifest.json: nguồn, hash PDF, 230 trang vật lý; chọn 54 trang Module 1–3.
+- ../benchmark/questions.json: 20 câu Việt, gold/evidence Anh, 15 dev / 5 test, 6 câu filter gồm 2 test.
+- ../configs/strategies.json, model_lock.json, selected_strategy.json: A/B/C, revision model và lựa chọn trên dev.
+- ../results/traces/: top-3 dev/test với nội dung, score, metadata và gold.
+- ../results/metrics/: corpus, chunking, embedding, ingestion, dev/test, nhãn và báo cáo.
+- ../results/manual_labels/: nhãn, phương pháp AI và các mục đã được học viên nhập.
+- ../artifacts/experiment_log.csv: giả thuyết/cấu hình và số đo thực tế.
+- ../report/individual/2A202603560_TruongVanThong.md: báo cáo sau khi chạy build_report.py.
+
+Model local paraphrase-multilingual-MiniLM-L12-v2, revision cố định, 384 chiều, giới hạn 128 token. A fixed 480 ký tự/overlap 48; B theo đoạn/câu/dòng tối đa 480; C cùng B và thêm filter Module/Lecture. Tách thêm theo cùng giới hạn token cho tất cả strategy, thành 299/273/273 chunk cuối.
+
+Chiến lược B được chọn từ dev theo Evidence Hit@3, Hit@1, số chunk rồi tên. Test chỉ đo sau khi chốt. Exact-quote metrics bảo thủ có thể bỏ sót bằng chứng tương đương; grounding 0–2 đọc toàn bộ top-3, không phải độ chính xác câu trả lời LLM.
+
+94/96 nhãn được Codex AI hỗ trợ chấm và chưa có xác nhận học viên; 2 nhãn học viên đã nhập được giữ nguyên. Phương pháp và giới hạn công khai trong review_provenance.json. Không mô tả chúng thành đánh giá mù độc lập của học viên.
+
+Đã sửa lỗi mất dấu câu hỏi trước khi chạy test và chạy lại dev; bản lỗi được lưu trong ../results/archive, lịch sử ở benchmark/protocol.json. Không chạy lại test để thay đổi cấu hình sau khi thấy điểm.
+
+Dừng container giữ dữ liệu:
+
+```powershell
 docker compose -p day6_student_starter stop
 ```
 
-## 2. Chọn embedding model
+Tài liệu starter gốc được giữ ở ../docs/STARTER_README_DE_BAI.md. Hướng dẫn đề và rubric vẫn ở repo root.
 
-Điền key tương ứng trong `.env` nếu dùng OpenRouter, OpenAI hoặc Gemini; **không commit `.env`**. Model local không cần API key. `requirements.txt` chỉ có dependencies cơ bản: tự cài SDK hoặc thư viện local phù hợp với model bạn chọn và ghi lại version/lệnh cài trong báo cáo. Ghi tên model và số chiều; dùng cùng model cho toàn bộ chiến lược và vector query tương thích vector document.
+## Nội dung nguồn được giữ local
 
-## 3. Hoàn thiện pipeline
+Xem [DATA_ACCESS.md](../docs/DATA_ACCESS.md). GitHub không kèm PDF, text, quote hoặc trace nguyên văn khi quyền tái phân phối chưa rõ. Có question_specs.public.json với offset evidence và results/review_labels.csv với nhận xét/nhãn có khai báo tác giả.
 
-1. Đặt corpus vào `data/` hoặc cung cấp manifest/hướng dẫn truy cập. Đọc [GUIDE.md](../GUIDE.md) về **30 trang nội dung**, quyền dữ liệu và metadata.
-2. Hoàn thiện từng hàm TODO trong `src/`. Lưu ID tài liệu, nguồn, trang/vị trí và ít nhất một trường filter có ích.
-3. Xây ít nhất ba cấu hình; ví dụ A fixed-size, B theo đoạn, C như B nhưng có filter. Cần cùng corpus, model và benchmark; nạp lại không nhân đôi và xử lý chunk cũ khi dữ liệu đổi.
-4. Tự viết ít nhất 20 câu hỏi kèm evidence, tách dev/test trước khi thử theo [BENCHMARK.md](../BENCHMARK.md). Lưu trace top-3 và báo cáo đủ năm tiêu chí.
-5. Sau khi hoàn thiện, chạy `python -m src.run` từ thư mục `starter/`. Trước khi làm TODO, lệnh này **chủ động báo `NotImplementedError`**.
+Sau prepare_audits.py, có thể tái sử dụng nhãn gốc chỉ khi mọi hash ngữ cảnh khớp:
 
-Lưu code, cấu hình, kết quả và lệnh chạy để người chấm tái lập; không commit key, dữ liệu mật hoặc dữ liệu không có quyền chia sẻ.
+```powershell
+.\.venv\Scripts\python.exe scripts/restore_review_labels.py
+.\.venv\Scripts\python.exe scripts/collect_audits.py
+.\.venv\Scripts\python.exe scripts/build_report.py
+```
+
+Gói đầy đủ chỉ được tạo trên máy bằng package_submission.py, ở ../artifacts/submission/, không nằm trên GitHub. Việc cung cấp bản nguồn cho người chấm phụ thuộc quyền chia sẻ thực tế và kênh lớp.

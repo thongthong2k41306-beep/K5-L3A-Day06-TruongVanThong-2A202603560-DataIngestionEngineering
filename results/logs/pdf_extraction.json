@@ -1,0 +1,21 @@
+{
+  "document_id": "digital-control-system",
+  "source": "starter/data/Digital control system.pdf",
+  "physical_pages": 230,
+  "parsed_pages": 230,
+  "failures": [],
+  "warning_counts": {
+    "xref_repair": 230
+  },
+  "warning_samples": [
+    "Ignoring wrong pointing object 2 0 (offset 0)",
+    "Ignoring wrong pointing object 32 0 (offset 0)",
+    "Ignoring wrong pointing object 50 0 (offset 0)",
+    "Ignoring wrong pointing object 58 0 (offset 0)",
+    "Ignoring wrong pointing object 63 0 (offset 0)",
+    "Ignoring wrong pointing object 91 0 (offset 0)",
+    "Ignoring wrong pointing object 107 0 (offset 0)",
+    "Ignoring wrong pointing object 112 0 (offset 0)"
+  ],
+  "notes": "Malformed xref offsets are repaired by pypdf strict=False. Text extraction cannot certify mathematical formula fidelity."
+}

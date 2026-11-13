@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-11-13T18:00:25+07:00",
+  "question_count": 20,
+  "dev_count": 15,
+  "test_count": 5,
+  "dev_gold_modules": [
+    1,
+    2
+  ],
+  "test_gold_modules": [
+    3
+  ],
+  "split_method": "Hold out Module 3 question topics; both splits retrieve from the same complete 54-page corpus.",
+  "questions_sha256": "c88ec5ce094d4a68f06526c9f3dc99761e3e9f45891b8f06eedc6ecb9bf8d383",
+  "selection_rule": [
+    "highest dev Evidence Hit@3",
+    "highest dev Hit@1",
+    "lowest chunk count",
+    "alphabetical strategy name"
+  ],
+  "filter_origin": "Module/Lecture explicitly supplied in question text before retrieval; never infer from gold page or answer.",
+  "authorship": "AI-assisted benchmark and reference answers; learner semantic review pending.",
+  "retrieval_executed_during_authoring": false,
+  "leakage_and_limitations": [
+    "One PDF; related concepts can recur across modules.",
+    "Test only covers Module 3 stability topics; five questions give high sampling uncertainty.",
+    "Vietnamese questions retrieve English text; outcomes combine cross-lingual embedding and chunking effects.",
+    "Do not tune on test. If test has influenced changes, disclose that and create a new holdout if possible.",
+    "Exact complete-quote matching is conservative; equivalent valid evidence needs documented review."
+  ],
+  "corrections": [
+    {
+      "corrected_at": "2026-11-13T18:30:28+07:00",
+      "reason": "Restore intended Vietnamese question/reference-answer Unicode corrupted to ASCII question marks during file writing through PowerShell.",
+      "scope": "Only restore original intended question/answer text; IDs, splits, filters, gold pages, evidence and strategy/model/corpus settings unchanged.",
+      "before_questions_sha256": "e97f312fd54d27723bf486f89cea2108d5485036157391b9cd39a76d00035a34",
+      "after_questions_sha256": "c88ec5ce094d4a68f06526c9f3dc99761e3e9f45891b8f06eedc6ecb9bf8d383",
+      "archive": "results/archive/dev_before_utf8_fix_20261113_183028",
+      "holdout_test_executed_before_correction": false,
+      "dev_rerun_required": true
+    }
+  ]
+}

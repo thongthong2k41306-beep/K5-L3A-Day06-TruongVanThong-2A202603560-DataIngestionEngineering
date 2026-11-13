@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-11-13T18:31:52+07:00",
+  "questions_sha256": "c88ec5ce094d4a68f06526c9f3dc99761e3e9f45891b8f06eedc6ecb9bf8d383",
+  "question_count": 20,
+  "dev_questions": 15,
+  "test_questions": 5,
+  "filter_questions": 6,
+  "test_filter_questions": 2,
+  "evidence_verified": 20,
+  "dev_gold_modules": [
+    1,
+    2
+  ],
+  "test_gold_modules": [
+    3
+  ],
+  "method": "Verify required fields, split sizes, source/page, exact evidence after whitespace normalization, and metadata filter values",
+  "learner_semantic_review": "pending",
+  "status": "valid"
+}

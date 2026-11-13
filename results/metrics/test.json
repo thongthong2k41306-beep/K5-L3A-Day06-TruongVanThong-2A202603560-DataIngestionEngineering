@@ -1,0 +1,114 @@
+{
+  "created_at": "2026-11-13T18:36:41+07:00",
+  "split": "test",
+  "summary": [
+    {
+      "strategy": "A",
+      "split": "test",
+      "questions": 5,
+      "hit1_n": 2,
+      "hit1": 0.4,
+      "evidence_hit3_n": 2,
+      "evidence_hit3": 0.4,
+      "filter_questions": 2,
+      "filter_compliant_n": 0,
+      "filter_compliance": 0.0,
+      "mean_latency_ms": 28.575280000222847
+    },
+    {
+      "strategy": "B",
+      "split": "test",
+      "questions": 5,
+      "hit1_n": 2,
+      "hit1": 0.4,
+      "evidence_hit3_n": 3,
+      "evidence_hit3": 0.6,
+      "filter_questions": 2,
+      "filter_compliant_n": 0,
+      "filter_compliance": 0.0,
+      "mean_latency_ms": 24.083500000051572
+    },
+    {
+      "strategy": "C",
+      "split": "test",
+      "questions": 5,
+      "hit1_n": 2,
+      "hit1": 0.4,
+      "evidence_hit3_n": 3,
+      "evidence_hit3": 0.6,
+      "filter_questions": 2,
+      "filter_compliant_n": 2,
+      "filter_compliance": 1.0,
+      "mean_latency_ms": 26.108079999903566
+    }
+  ],
+  "selected_strategy_from_dev": "B",
+  "selected_strategy_test_metrics": {
+    "strategy": "B",
+    "split": "test",
+    "questions": 5,
+    "hit1_n": 2,
+    "hit1": 0.4,
+    "evidence_hit3_n": 3,
+    "evidence_hit3": 0.6,
+    "filter_questions": 2,
+    "filter_compliant_n": 0,
+    "filter_compliance": 0.0,
+    "mean_latency_ms": 24.083500000051572
+  },
+  "selection_changed_using_test": false,
+  "frozen_selection_sha256": "252288874ff7563dfbd21f70f5194f4f87a2cb85747ab6898e2ae19a17fb086a",
+  "input_fingerprints": {
+    "questions": "c88ec5ce094d4a68f06526c9f3dc99761e3e9f45891b8f06eedc6ecb9bf8d383",
+    "protocol": "e8fbe120eca0c8893a83a5f4c83bbc3c57da6b4dc628b2d75e2bf904d2a70008",
+    "strategies": "ae7d9fd042abe59f351705f1e98c067f53fc19de6525da965e15a0628fa25916",
+    "pages": "3b0e4bd284f4f066c7bf128aff49678b320e3a8dd5948c8c21a03d6a39269758",
+    "embeddings": "fcecc8e6063db07fc15f13c048a24e3284e7209b0800c875d45713b3010c6175",
+    "ingestion": "4fa998840e1601dc835ee93d206815d4c0612677791bb35c7ceecebc478d3472",
+    "model_lock": "a8467689dcf513212b7e8527be7d51c3fb24cd5a235fe22f5610b98b816dc5a4",
+    "retrieval_code": "1489d4d89b244787856bf5b20d4fd334db06994248d817e82a9a1e018313474d",
+    "evaluation_code": "6ce871d4e69210ac9eae652d6d0db3b55dd0a0a580927e62e7cc3c352a27c35f",
+    "store_code": "400481feefaa06c9df14c41353e3cf51f9161f2529e245f96353e15472b6ca1a",
+    "embedding_code": "620c59e212580e44aab8433eca4c040022ace88a68cad60e6e908b71eb611d4b"
+  },
+  "holdout_evaluator_sha256": "f2d14e049d9fc48bf6f3c38aa0fac3f3ab997f9391f0f3fa49316dce7206bc3c",
+  "model": {
+    "provider": "local Sentence Transformers",
+    "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "dimensions": 384,
+    "max_seq_length": 128,
+    "device": "cpu",
+    "normalization": "L2; encode() for both query and document; no prefixes",
+    "document_upload": false,
+    "service_cost_usd": 0.0,
+    "versions": {
+      "sentence-transformers": "5.7.0",
+      "transformers": "5.22.2",
+      "torch": "2.15.0",
+      "numpy": "2.5.4"
+    }
+  },
+  "chunk_counts": {
+    "A": 299,
+    "B": 273,
+    "C": 273
+  },
+  "query_embedding_seconds": 0.09914310000021942,
+  "query_cache": {
+    "unique_inputs": 5,
+    "cache_hits": 0,
+    "new_embeddings": 5
+  },
+  "total_seconds": 7.158505100000184,
+  "service_cost_usd": 0.0,
+  "traces_sha256": "7349282c1af19b37ae7855709a73cf56b114c1ce44b725be55f15800d6b62fc0",
+  "notes": [
+    "Five held-out Module 3 questions; same corpus/model/strategies as dev.",
+    "The configuration selected on dev remains fixed regardless of test ranking.",
+    "Only question text and an explicitly supplied metadata filter enter retrieval.",
+    "Strict complete-evidence matching; inspect valid equivalent evidence explicitly if needed.",
+    "Test has five questions: one question changes the percentage by 20 points.",
+    "Coherence, metadata correctness and grounding still require separate recorded review."
+  ]
+}

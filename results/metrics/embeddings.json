@@ -1,0 +1,116 @@
+{
+  "created_at": "2026-11-13T18:11:51+07:00",
+  "status": "complete",
+  "model": {
+    "provider": "local Sentence Transformers",
+    "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "dimensions": 384,
+    "max_seq_length": 128,
+    "device": "cpu",
+    "normalization": "L2; encode() for both query and document; no prefixes",
+    "document_upload": false,
+    "service_cost_usd": 0.0,
+    "versions": {
+      "sentence-transformers": "5.7.0",
+      "transformers": "5.22.2",
+      "torch": "2.15.0",
+      "numpy": "2.5.4"
+    }
+  },
+  "source_pages_sha256": "3b0e4bd284f4f066c7bf128aff49678b320e3a8dd5948c8c21a03d6a39269758",
+  "strategies_config_sha256": "ae7d9fd042abe59f351705f1e98c067f53fc19de6525da965e15a0628fa25916",
+  "model_load_seconds": 6.5502,
+  "total_step_seconds": 30.838367,
+  "strategies": {
+    "A": {
+      "character_chunk_count": 177,
+      "final_chunk_count": 299,
+      "original_chunks_over_token_limit": 107,
+      "total_tokens_with_special_tokens_and_overlap": 25433,
+      "max_tokens": 128,
+      "mean_tokens": 85.06,
+      "median_tokens": 83,
+      "max_characters": 480,
+      "total_characters_with_overlap": 71485,
+      "embedding_seconds": 12.375793,
+      "cache": {
+        "unique_inputs": 299,
+        "cache_hits": 0,
+        "new_embeddings": 299
+      },
+      "vector_norm_min": 0.9999998807907104,
+      "vector_norm_max": 1.0000001192092896
+    },
+    "B": {
+      "character_chunk_count": 173,
+      "final_chunk_count": 273,
+      "original_chunks_over_token_limit": 91,
+      "total_tokens_with_special_tokens_and_overlap": 23267,
+      "max_tokens": 128,
+      "mean_tokens": 85.23,
+      "median_tokens": 86,
+      "max_characters": 479,
+      "total_characters_with_overlap": 65508,
+      "embedding_seconds": 11.536931,
+      "cache": {
+        "unique_inputs": 273,
+        "cache_hits": 14,
+        "new_embeddings": 259
+      },
+      "vector_norm_min": 0.9999998807907104,
+      "vector_norm_max": 1.0000001192092896
+    },
+    "C": {
+      "character_chunk_count": 173,
+      "final_chunk_count": 273,
+      "original_chunks_over_token_limit": 91,
+      "total_tokens_with_special_tokens_and_overlap": 23267,
+      "max_tokens": 128,
+      "mean_tokens": 85.23,
+      "median_tokens": 86,
+      "max_characters": 479,
+      "total_characters_with_overlap": 65508,
+      "reuses_chunks_and_vectors_from": "B",
+      "embedding_seconds": 0.0,
+      "cache": {
+        "reused_from": "B"
+      },
+      "vector_norm_min": 0.9999998807907104,
+      "vector_norm_max": 1.0000001192092896
+    }
+  },
+  "artifacts": {
+    "A": {
+      "chunks_path": "data/processed/embedded_chunks_A.jsonl",
+      "chunks_sha256": "c9bff9efb5e39954ef45396374e0fcc5ba549d926d2ba4cdb4d57c9ddeec2556",
+      "vectors_path": "artifacts/embedding_cache/strategy_A.npz",
+      "vectors_sha256": "3edb96296294d70c9e5fce479255296e12559795eb4d6a1ba3230c3d9154cff0",
+      "vector_rows": 299
+    },
+    "B": {
+      "chunks_path": "data/processed/embedded_chunks_B.jsonl",
+      "chunks_sha256": "0c851c02ce9197318a3663f95d1b9cf2cb46bc33b9379ccd7373b11a4927c506",
+      "vectors_path": "artifacts/embedding_cache/strategy_B.npz",
+      "vectors_sha256": "00ad5d2dc21850c6e27e70946d87e6f251d25ac2d2dfc9a2a89703c6e84b1ffe",
+      "vector_rows": 273
+    },
+    "C": {
+      "chunks_path": "data/processed/embedded_chunks_C.jsonl",
+      "chunks_sha256": "0c851c02ce9197318a3663f95d1b9cf2cb46bc33b9379ccd7373b11a4927c506",
+      "vectors_path": "artifacts/embedding_cache/strategy_B.npz",
+      "vectors_sha256": "00ad5d2dc21850c6e27e70946d87e6f251d25ac2d2dfc9a2a89703c6e84b1ffe",
+      "vector_rows": 273,
+      "vectors_reused_from": "B"
+    }
+  },
+  "service_cost_usd": 0.0,
+  "notes": [
+    "All vectors are produced locally by the same real pinned model. No PDF text is uploaded.",
+    "A/B encode different chunks; C reuses B vectors and differs only by query-time filter.",
+    "Character chunks over the model token limit are split explicitly using the same rule for all strategies.",
+    "Cached embeddings reduce repeat runtime; cache hit/new counts are recorded.",
+    "Vector files here are intermediate artifacts. PostgreSQL storage/search is the next step.",
+    "No dev/test retrieval or scoring is performed in this step."
+  ]
+}
